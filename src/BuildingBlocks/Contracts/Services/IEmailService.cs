@@ -1,9 +1,7 @@
-﻿using Shared.Services.Email;
-
-namespace Contracts.Services
+﻿namespace Contracts.Services
 {
-    public interface IEmailService 
+    public interface IEmailService<in T> where T : class
     {
-        void SendEmailAsync(MailRequest request, CancellationToken cancellationToken = new CancellationToken());
+        void SendEmailAsync(T request, CancellationToken cancellationToken = new CancellationToken());
     }
 }

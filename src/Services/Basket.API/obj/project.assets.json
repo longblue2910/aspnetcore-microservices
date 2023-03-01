@@ -974,8 +974,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "7.0.2",
-          "Shared": "1.0.0"
+          "Microsoft.EntityFrameworkCore": "7.0.2"
         },
         "compile": {
           "bin/placeholder/Contracts.dll": {}
@@ -998,16 +997,6 @@
         },
         "runtime": {
           "bin/placeholder/Infrastructure.dll": {}
-        }
-      },
-      "Shared/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "compile": {
-          "bin/placeholder/Shared.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Shared.dll": {}
         }
       }
     }
@@ -2502,11 +2491,6 @@
       "type": "project",
       "path": "../../BuildingBlocks/Infrastructure/Infrastructure.csproj",
       "msbuildProject": "../../BuildingBlocks/Infrastructure/Infrastructure.csproj"
-    },
-    "Shared/1.0.0": {
-      "type": "project",
-      "path": "../../BuildingBlocks/Shared/Shared.csproj",
-      "msbuildProject": "../../BuildingBlocks/Shared/Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {

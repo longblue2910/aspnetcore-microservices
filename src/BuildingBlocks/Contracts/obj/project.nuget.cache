@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "10MbIWepNnoyJgXw56Ui5ztLapOgbAzme9SBwrQ/mnZiIdYIOR2HK2jYkDzGrTucUGKQ5gQTgbqRbRugGuy8WQ==",
+  "dgSpecHash": "oY2eXhSqZiTLrXxr6nhU5PZHMWAsrh3hF3XCTKB6YzMaAyYYcdfAUXuGx6e/FoADpOeRbtaMjB0FBQ45jnqAwQ==",
   "success": true,
   "projectFilePath": "D:\\Overtime\\LearnAdvance\\aspnetcore-microservice\\src\\BuildingBlocks\\Contracts\\Contracts.csproj",
   "expectedPackageFiles": [
