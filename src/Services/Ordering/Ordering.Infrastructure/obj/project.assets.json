@@ -1426,7 +1426,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "7.0.2"
+          "Microsoft.EntityFrameworkCore": "7.0.2",
+          "Shared": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Contracts.dll": {}

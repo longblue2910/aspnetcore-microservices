@@ -1,4 +1,5 @@
 using Common.Logging;
+using Ordering.API.Extensions;
 using Ordering.Application;
 using Ordering.Infrastructure;
 using Ordering.Infrastructure.Persistence;
@@ -13,6 +14,8 @@ try
 {
 
     // Add services to the container.
+    builder.Host.AddAppConfigurations();
+    builder.Services.AddConfigurationSettings(builder.Configuration);
     builder.Services.AddApplicationServices();
     builder.Services.AddInfrastructureServices(builder.Configuration);
 
