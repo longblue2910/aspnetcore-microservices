@@ -1,0 +1,12 @@
+D:\Overtime\LearnAdvance\aspnetcore-microservice\src\BuildingBlocks\Shared\bin\Debug\net6.0\Shared.deps.json
+D:\Overtime\LearnAdvance\aspnetcore-microservice\src\BuildingBlocks\Shared\bin\Debug\net6.0\Shared.dll
+D:\Overtime\LearnAdvance\aspnetcore-microservice\src\BuildingBlocks\Shared\bin\Debug\net6.0\Shared.pdb
+D:\Overtime\LearnAdvance\aspnetcore-microservice\src\BuildingBlocks\Shared\obj\Debug\net6.0\Shared.csproj.AssemblyReference.cache
+D:\Overtime\LearnAdvance\aspnetcore-microservice\src\BuildingBlocks\Shared\obj\Debug\net6.0\Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\Overtime\LearnAdvance\aspnetcore-microservice\src\BuildingBlocks\Shared\obj\Debug\net6.0\Shared.AssemblyInfoInputs.cache
+D:\Overtime\LearnAdvance\aspnetcore-microservice\src\BuildingBlocks\Shared\obj\Debug\net6.0\Shared.AssemblyInfo.cs
+D:\Overtime\LearnAdvance\aspnetcore-microservice\src\BuildingBlocks\Shared\obj\Debug\net6.0\Shared.csproj.CoreCompileInputs.cache
+D:\Overtime\LearnAdvance\aspnetcore-microservice\src\BuildingBlocks\Shared\obj\Debug\net6.0\Shared.dll
+D:\Overtime\LearnAdvance\aspnetcore-microservice\src\BuildingBlocks\Shared\obj\Debug\net6.0\refint\Shared.dll
+D:\Overtime\LearnAdvance\aspnetcore-microservice\src\BuildingBlocks\Shared\obj\Debug\net6.0\Shared.pdb
+D:\Overtime\LearnAdvance\aspnetcore-microservice\src\BuildingBlocks\Shared\obj\Debug\net6.0\ref\Shared.dll
