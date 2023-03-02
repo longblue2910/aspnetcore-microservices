@@ -5,7 +5,7 @@ services:
   orderdb:
     container_name: orderdb
     environment:
-        SA_PASSWORD: "123456"
+        SA_PASSWORD: "Passw0rd!"
         ACCEPT_EULA: "Y"
     restart: always
     volumes:
@@ -156,4 +156,16 @@ services:
         - basketdb
     ports:
         - "6004:80" 
+    restart: always
+
+  ordering.api:
+    container_name: ordering.api
+    environment: 
+        - ASPNETCORE_ENVIRONMENT=Development
+        - ASPNETCORE_URLS=http://+80
+        - "ConnectionStrings:DefaultConnection=Server=orderdb;Database=OrderDb;User Id=sa;Password=Passw0rd!;Multipleactiveresultsets=True;TrustServerCertificate=True"
+    depends_on:
+        - orderdb
+    ports:
+        - "6005:80" 
     restart: always

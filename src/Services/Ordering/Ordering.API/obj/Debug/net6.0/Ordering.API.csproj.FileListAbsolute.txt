@@ -112,3 +112,6 @@ D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Ordering\Ordering.
 D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Ordering\Ordering.API\obj\Debug\net6.0\Ordering.API.pdb
 D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Ordering\Ordering.API\obj\Debug\net6.0\Ordering.API.genruntimeconfig.cache
 D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Ordering\Ordering.API\obj\Debug\net6.0\ref\Ordering.API.dll
+D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Ordering\Ordering.API\bin\Debug\net6.0\MailKit.dll
+D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Ordering\Ordering.API\bin\Debug\net6.0\MimeKit.dll
+D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Ordering\Ordering.API\bin\Debug\net6.0\BouncyCastle.Crypto.dll

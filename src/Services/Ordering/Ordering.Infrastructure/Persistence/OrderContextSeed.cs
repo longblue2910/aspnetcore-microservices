@@ -1,70 +1,31 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Ordering.Domain.Entities;
+﻿using Ordering.Domain.Entities;
 using Serilog;
 
 namespace Ordering.Infrastructure.Persistence
 {
-    public class OrderContextSeed
+    public static class OrderContextSeed
     {
-        private readonly ILogger _logger;
-        private readonly OrderContext _context;
-
-        public OrderContextSeed(ILogger logger, OrderContext context)
+        public static async Task SeedOrderAsync(OrderContext orderContext, ILogger logger)
         {
-            _logger = logger;
-            _context = context;
-        }
-
-        public async Task InitialiseAsync()
-        {
-            try
+            if (!orderContext.Orders.Any())
             {
-                if (_context.Database.IsSqlServer())
-                {
-                    await _context.Database.MigrateAsync();
-                }
-            }
-            catch (Exception ex)
-            {
-                _logger.Error(ex, "An error occurred while initialising the database");
-                throw;
+                orderContext.AddRange(getOrders());
+                await orderContext.SaveChangesAsync();
+                logger.Information("Seeded data for Order DB associated with context {DbContextName}", nameof(orderContext));
             }
         }
 
-        public async Task SeedAsync()
+        private static IEnumerable<Order> getOrders()
         {
-            try
+            return new List<Order>
             {
-                await TrySeedAsync();
-                await _context.SaveChangesAsync();
-            }
-            catch (Exception ex)
-            {
-                _logger.Error(ex, "An error occurred while seeding the database");
-                throw;
-            }
-        }
-
-        public async Task TrySeedAsync()
-        {
-            try
-            {
-                if (!_context.Orders.Any())
-                {
-                    await _context.AddRangeAsync(
-                        new Order
+                new Order
                         {
                             UserName = "customer1", FirstName = "customer1", LastName = "customer",
                             EmailAddress = "customer1@gmail.com",
                             ShippingAddress = "HCM city", InvoiceAddress = "Viet Nam", TotalPrice = 500000
-                        });
-                }
-            }
-            catch (Exception ex)
-            {
-                _logger.Error(ex, "An error occurred while seeding the database");
-                throw;
-            }
+                        }
+            };
         }
     }
 }

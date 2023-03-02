@@ -10,3 +10,6 @@ D:\Overtime\LearnAdvance\aspnetcore-microservice\src\BuildingBlocks\Contracts\ob
 D:\Overtime\LearnAdvance\aspnetcore-microservice\src\BuildingBlocks\Contracts\obj\Debug\net6.0\refint\Contracts.dll
 D:\Overtime\LearnAdvance\aspnetcore-microservice\src\BuildingBlocks\Contracts\obj\Debug\net6.0\Contracts.pdb
 D:\Overtime\LearnAdvance\aspnetcore-microservice\src\BuildingBlocks\Contracts\obj\Debug\net6.0\ref\Contracts.dll
+D:\Overtime\LearnAdvance\aspnetcore-microservice\src\BuildingBlocks\Contracts\bin\Debug\net6.0\Shared.dll
+D:\Overtime\LearnAdvance\aspnetcore-microservice\src\BuildingBlocks\Contracts\bin\Debug\net6.0\Shared.pdb
+D:\Overtime\LearnAdvance\aspnetcore-microservice\src\BuildingBlocks\Contracts\obj\Debug\net6.0\Contracts.csproj.CopyComplete

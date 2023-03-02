@@ -33,12 +33,11 @@ try
         app.UseSwaggerUI();
     }
 
-    using (var scope = app.Services.CreateScope())
-    {
-        var orderContextSeed = scope.ServiceProvider.GetRequiredService<OrderContextSeed>();
-        await orderContextSeed.InitialiseAsync();
-        await orderContextSeed.SeedAsync();
-    }
+    //Auto migration
+    //app.MigrateDatabase<OrderContext>((context, _) =>
+    //{
+    //    OrderContextSeed.SeedOrderAsync(context, Log.Logger).Wait();
+    //}).Run();
 
     app.UseHttpsRedirection();
 

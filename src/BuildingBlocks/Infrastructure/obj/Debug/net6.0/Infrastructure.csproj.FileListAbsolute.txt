@@ -13,3 +13,7 @@ D:\Overtime\LearnAdvance\aspnetcore-microservice\src\BuildingBlocks\Infrastructu
 D:\Overtime\LearnAdvance\aspnetcore-microservice\src\BuildingBlocks\Infrastructure\obj\Debug\net6.0\refint\Infrastructure.dll
 D:\Overtime\LearnAdvance\aspnetcore-microservice\src\BuildingBlocks\Infrastructure\obj\Debug\net6.0\Infrastructure.pdb
 D:\Overtime\LearnAdvance\aspnetcore-microservice\src\BuildingBlocks\Infrastructure\obj\Debug\net6.0\ref\Infrastructure.dll
+D:\Overtime\LearnAdvance\aspnetcore-microservice\src\BuildingBlocks\Infrastructure\bin\Debug\net6.0\Common.Logging.dll
+D:\Overtime\LearnAdvance\aspnetcore-microservice\src\BuildingBlocks\Infrastructure\bin\Debug\net6.0\Shared.dll
+D:\Overtime\LearnAdvance\aspnetcore-microservice\src\BuildingBlocks\Infrastructure\bin\Debug\net6.0\Common.Logging.pdb
+D:\Overtime\LearnAdvance\aspnetcore-microservice\src\BuildingBlocks\Infrastructure\bin\Debug\net6.0\Shared.pdb

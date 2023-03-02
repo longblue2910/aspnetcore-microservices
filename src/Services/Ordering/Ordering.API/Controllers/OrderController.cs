@@ -1,39 +1,22 @@
 ﻿using Contracts.Services;
 using MediatR;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Ordering.Application.Common.Models;
-using Ordering.Application.Features.V1.Orders;
 using Shared.Services.Email;
-using System.ComponentModel.DataAnnotations;
 
 namespace Ordering.API.Controllers
 {
-    [Route("api/v1/[controller]")]
+    [Route("api/[controller]")]
     [ApiController]
-    public class OrdersController : ControllerBase
+    public class OrderController : ControllerBase
     {
         private readonly IMediator _mediator;
         private readonly ISmtpEmailService _smtpEmailService;
 
-        public OrdersController(IMediator mediator, ISmtpEmailService smtpEmailService)
+        public OrderController(IMediator mediator, ISmtpEmailService smtpEmailService)
         {
             _mediator = mediator;
             _smtpEmailService = smtpEmailService;
-        }
-
-
-        private static class RouteNames
-        {
-            public const string GetOrders = nameof(GetOrders);
-        }
-
-        [HttpGet("{username}")]
-        public async Task<ActionResult<IEnumerable<OrderDto>>> GetOrdersByUserName([Required] string username)
-        {
-            var query = new GetOrdersQuery(username);
-            var result = await _mediator.Send(query);
-
-            return Ok(result);
         }
 
         [HttpGet("test-email")]
