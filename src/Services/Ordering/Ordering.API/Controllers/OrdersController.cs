@@ -1,9 +1,8 @@
-﻿using Contracts.Services;
+﻿using AutoMapper;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Ordering.Application.Common.Models;
 using Ordering.Application.Features.V1.Orders;
-using Shared.Services.Email;
 using System.ComponentModel.DataAnnotations;
 
 namespace Ordering.API.Controllers
@@ -13,18 +12,22 @@ namespace Ordering.API.Controllers
     public class OrdersController : ControllerBase
     {
         private readonly IMediator _mediator;
-        private readonly ISmtpEmailService _smtpEmailService;
+        private readonly IMapper _mapper;
 
-        public OrdersController(IMediator mediator, ISmtpEmailService smtpEmailService)
+        public OrdersController(IMediator mediator, IMapper mapper)
         {
             _mediator = mediator;
-            _smtpEmailService = smtpEmailService;
+            _mapper = mapper;
         }
 
 
         private static class RouteNames
         {
             public const string GetOrders = nameof(GetOrders);
+            public const string CreateOrder = nameof(CreateOrder);
+            public const string UpdateOrder = nameof(UpdateOrder);
+            public const string DeleteOrder = nameof(DeleteOrder);
+
         }
 
         [HttpGet("{username}")]
@@ -36,18 +39,11 @@ namespace Ordering.API.Controllers
             return Ok(result);
         }
 
-        [HttpGet("test-email")]
-        public async Task<IActionResult> TestEmail()
+        [HttpPost]
+        public async Task<IActionResult> CreateOrder(CreateOrderCommand command)
         {
-            var message = new MailRequest
-            {
-                Body = "<h1>Hello Long T</h1>",
-                Subject = "TEST EMAIL",
-                ToAddress = "jootinno1@gmail.com"
-            };
-            await _smtpEmailService.SendEmailAsync(message);
-
-            return Ok();
+            var result = await _mediator.Send(command);
+            return Ok(result);
         }
     }
 }

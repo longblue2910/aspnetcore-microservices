@@ -1,8 +1,9 @@
 using Common.Logging;
+using Contracts.Common.Interfaces;
+using Infrastructure.Common;
 using Ordering.API.Extensions;
 using Ordering.Application;
 using Ordering.Infrastructure;
-using Ordering.Infrastructure.Persistence;
 using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -18,11 +19,14 @@ try
     builder.Services.AddConfigurationSettings(builder.Configuration);
     builder.Services.AddApplicationServices();
     builder.Services.AddInfrastructureServices(builder.Configuration);
+    //Configure Mass Transit
+    builder.Services.ConfigureMasstransit();
 
     builder.Services.AddControllers();
     // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
     builder.Services.AddEndpointsApiExplorer();
     builder.Services.AddSwaggerGen();
+    builder.Services.AddScoped<ISerializeService, SerializeService>();
 
     var app = builder.Build();
 

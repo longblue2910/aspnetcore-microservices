@@ -31,6 +31,7 @@ D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Product.API\bin\De
 D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Product.API\bin\Debug\net6.0\Newtonsoft.Json.dll
 D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Product.API\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
 D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Product.API\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Product.API\bin\Debug\net6.0\RabbitMQ.Client.dll
 D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Product.API\bin\Debug\net6.0\Serilog.dll
 D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Product.API\bin\Debug\net6.0\Serilog.AspNetCore.dll
 D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Product.API\bin\Debug\net6.0\Serilog.Enrichers.Environment.dll

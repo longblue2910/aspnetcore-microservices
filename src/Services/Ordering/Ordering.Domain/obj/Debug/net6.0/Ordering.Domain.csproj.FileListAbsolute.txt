@@ -2,7 +2,9 @@ D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Ordering\Ordering.
 D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Ordering\Ordering.Domain\bin\Debug\net6.0\Ordering.Domain.dll
 D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Ordering\Ordering.Domain\bin\Debug\net6.0\Ordering.Domain.pdb
 D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Ordering\Ordering.Domain\bin\Debug\net6.0\Contracts.dll
+D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Ordering\Ordering.Domain\bin\Debug\net6.0\Shared.dll
 D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Ordering\Ordering.Domain\bin\Debug\net6.0\Contracts.pdb
+D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Ordering\Ordering.Domain\bin\Debug\net6.0\Shared.pdb
 D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Ordering\Ordering.Domain\obj\Debug\net6.0\Ordering.Domain.csproj.AssemblyReference.cache
 D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Ordering\Ordering.Domain\obj\Debug\net6.0\Ordering.Domain.GeneratedMSBuildEditorConfig.editorconfig
 D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Ordering\Ordering.Domain\obj\Debug\net6.0\Ordering.Domain.AssemblyInfoInputs.cache
@@ -13,5 +15,3 @@ D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Ordering\Ordering.
 D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Ordering\Ordering.Domain\obj\Debug\net6.0\refint\Ordering.Domain.dll
 D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Ordering\Ordering.Domain\obj\Debug\net6.0\Ordering.Domain.pdb
 D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Ordering\Ordering.Domain\obj\Debug\net6.0\ref\Ordering.Domain.dll
-D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Ordering\Ordering.Domain\bin\Debug\net6.0\Shared.dll
-D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Ordering\Ordering.Domain\bin\Debug\net6.0\Shared.pdb

@@ -12,6 +12,7 @@ D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Ordering\Ordering.
 D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Ordering\Ordering.API\bin\Debug\net6.0\FluentValidation.dll
 D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Ordering\Ordering.API\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
 D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Ordering\Ordering.API\bin\Debug\net6.0\Humanizer.dll
+D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Ordering\Ordering.API\bin\Debug\net6.0\MailKit.dll
 D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Ordering\Ordering.API\bin\Debug\net6.0\MediatR.dll
 D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Ordering\Ordering.API\bin\Debug\net6.0\MediatR.Contracts.dll
 D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Ordering\Ordering.API\bin\Debug\net6.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
@@ -43,8 +44,11 @@ D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Ordering\Ordering.
 D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Ordering\Ordering.API\bin\Debug\net6.0\Microsoft.OpenApi.dll
 D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Ordering\Ordering.API\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
 D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Ordering\Ordering.API\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Ordering\Ordering.API\bin\Debug\net6.0\MimeKit.dll
 D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Ordering\Ordering.API\bin\Debug\net6.0\Mono.TextTemplating.dll
 D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Ordering\Ordering.API\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Ordering\Ordering.API\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Ordering\Ordering.API\bin\Debug\net6.0\RabbitMQ.Client.dll
 D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Ordering\Ordering.API\bin\Debug\net6.0\Serilog.dll
 D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Ordering\Ordering.API\bin\Debug\net6.0\Serilog.AspNetCore.dll
 D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Ordering\Ordering.API\bin\Debug\net6.0\Serilog.Enrichers.Environment.dll
@@ -112,6 +116,10 @@ D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Ordering\Ordering.
 D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Ordering\Ordering.API\obj\Debug\net6.0\Ordering.API.pdb
 D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Ordering\Ordering.API\obj\Debug\net6.0\Ordering.API.genruntimeconfig.cache
 D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Ordering\Ordering.API\obj\Debug\net6.0\ref\Ordering.API.dll
-D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Ordering\Ordering.API\bin\Debug\net6.0\MailKit.dll
-D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Ordering\Ordering.API\bin\Debug\net6.0\MimeKit.dll
-D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Ordering\Ordering.API\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Ordering\Ordering.API\bin\Debug\net6.0\MassTransit.dll
+D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Ordering\Ordering.API\bin\Debug\net6.0\MassTransit.Abstractions.dll
+D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Ordering\Ordering.API\bin\Debug\net6.0\MassTransit.RabbitMqTransport.dll
+D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Ordering\Ordering.API\bin\Debug\net6.0\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Ordering\Ordering.API\bin\Debug\net6.0\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Ordering\Ordering.API\bin\Debug\net6.0\EventBus.Messages.dll
+D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Ordering\Ordering.API\bin\Debug\net6.0\EventBus.Messages.pdb

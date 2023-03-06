@@ -13,7 +13,19 @@ namespace Ordering.Infrastructure.Repositories
         {
         }
 
+        public async Task<Order> CreateOrderAsync(Order orderDto)
+        {
+            await CreateAsync(orderDto);
+            return orderDto;
+        }
+
         public async Task<IEnumerable<Order>> GetOrdersByUsername(string username) =>
             await FindByCondition(x => x.UserName.Equals(username)).ToListAsync();
+
+        public async Task<Order> UpdateOrderAsync(Order orderDto)
+        {
+            await UpdateAsync(orderDto);
+            return orderDto;
+        }
     }
 }
