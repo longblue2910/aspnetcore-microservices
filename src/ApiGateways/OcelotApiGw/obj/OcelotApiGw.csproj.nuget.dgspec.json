@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Overtime\\LearnAdvance\\aspnetcore-microservice\\src\\ApiGateways\\OcelotApiGw\\OcelotApiGw.csproj": {}
+    "D:\\Overtime\\LearnAdvance\\microservice\\src\\ApiGateways\\OcelotApiGw\\OcelotApiGw.csproj": {}
   },
   "projects": {
-    "D:\\Overtime\\LearnAdvance\\aspnetcore-microservice\\src\\ApiGateways\\OcelotApiGw\\OcelotApiGw.csproj": {
+    "D:\\Overtime\\LearnAdvance\\microservice\\src\\ApiGateways\\OcelotApiGw\\OcelotApiGw.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Overtime\\LearnAdvance\\aspnetcore-microservice\\src\\ApiGateways\\OcelotApiGw\\OcelotApiGw.csproj",
+        "projectUniqueName": "D:\\Overtime\\LearnAdvance\\microservice\\src\\ApiGateways\\OcelotApiGw\\OcelotApiGw.csproj",
         "projectName": "OcelotApiGw",
-        "projectPath": "D:\\Overtime\\LearnAdvance\\aspnetcore-microservice\\src\\ApiGateways\\OcelotApiGw\\OcelotApiGw.csproj",
+        "projectPath": "D:\\Overtime\\LearnAdvance\\microservice\\src\\ApiGateways\\OcelotApiGw\\OcelotApiGw.csproj",
         "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "D:\\Overtime\\LearnAdvance\\aspnetcore-microservice\\src\\ApiGateways\\OcelotApiGw\\obj\\",
+        "outputPath": "D:\\Overtime\\LearnAdvance\\microservice\\src\\ApiGateways\\OcelotApiGw\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages"

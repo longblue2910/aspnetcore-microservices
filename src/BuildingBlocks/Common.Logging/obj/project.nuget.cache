@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FdJnqa9H4DAFwfs3Ni/qkKF3m1pSsAELPiifvedGy7AOQsDBC0UJiJ0Rv2r8Xn5/FO5hNZU5yCwqUCNBu9sWsw==",
+  "dgSpecHash": "hF+ykLMUo6qYgHjsgVtNga6GtmM14rU4f4azMbDsRH3bRyskRRveDLWLqMyUPnUQ/WLjrB76TbU8e+Ipy0nbCQ==",
   "success": true,
-  "projectFilePath": "D:\\Overtime\\LearnAdvance\\aspnetcore-microservice\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj",
+  "projectFilePath": "D:\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.extensions.configuration\\2.0.0\\microsoft.extensions.configuration.2.0.0.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.8\\microsoft.extensions.configuration.abstractions.3.1.8.nupkg.sha512",

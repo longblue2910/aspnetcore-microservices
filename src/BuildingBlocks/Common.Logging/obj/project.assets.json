@@ -865,11 +865,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Overtime\\LearnAdvance\\aspnetcore-microservice\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj",
+      "projectUniqueName": "D:\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj",
       "projectName": "Common.Logging",
-      "projectPath": "D:\\Overtime\\LearnAdvance\\aspnetcore-microservice\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj",
+      "projectPath": "D:\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj",
       "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-      "outputPath": "D:\\Overtime\\LearnAdvance\\aspnetcore-microservice\\src\\BuildingBlocks\\Common.Logging\\obj\\",
+      "outputPath": "D:\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Common.Logging\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages"

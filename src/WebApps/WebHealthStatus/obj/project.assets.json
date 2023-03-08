@@ -1872,11 +1872,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Overtime\\LearnAdvance\\aspnetcore-microservice\\src\\WebApps\\WebHealthStatus\\WebHealthStatus.csproj",
+      "projectUniqueName": "D:\\Overtime\\LearnAdvance\\microservice\\src\\WebApps\\WebHealthStatus\\WebHealthStatus.csproj",
       "projectName": "WebHealthStatus",
-      "projectPath": "D:\\Overtime\\LearnAdvance\\aspnetcore-microservice\\src\\WebApps\\WebHealthStatus\\WebHealthStatus.csproj",
+      "projectPath": "D:\\Overtime\\LearnAdvance\\microservice\\src\\WebApps\\WebHealthStatus\\WebHealthStatus.csproj",
       "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-      "outputPath": "D:\\Overtime\\LearnAdvance\\aspnetcore-microservice\\src\\WebApps\\WebHealthStatus\\obj\\",
+      "outputPath": "D:\\Overtime\\LearnAdvance\\microservice\\src\\WebApps\\WebHealthStatus\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages"

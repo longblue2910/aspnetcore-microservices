@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Overtime\\LearnAdvance\\aspnetcore-microservice\\src\\Services\\Hangfire.API\\Hangfire.API.csproj": {}
+    "D:\\Overtime\\LearnAdvance\\microservice\\src\\Services\\Hangfire.API\\Hangfire.API.csproj": {}
   },
   "projects": {
-    "D:\\Overtime\\LearnAdvance\\aspnetcore-microservice\\src\\Services\\Hangfire.API\\Hangfire.API.csproj": {
+    "D:\\Overtime\\LearnAdvance\\microservice\\src\\Services\\Hangfire.API\\Hangfire.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Overtime\\LearnAdvance\\aspnetcore-microservice\\src\\Services\\Hangfire.API\\Hangfire.API.csproj",
+        "projectUniqueName": "D:\\Overtime\\LearnAdvance\\microservice\\src\\Services\\Hangfire.API\\Hangfire.API.csproj",
         "projectName": "Hangfire.API",
-        "projectPath": "D:\\Overtime\\LearnAdvance\\aspnetcore-microservice\\src\\Services\\Hangfire.API\\Hangfire.API.csproj",
+        "projectPath": "D:\\Overtime\\LearnAdvance\\microservice\\src\\Services\\Hangfire.API\\Hangfire.API.csproj",
         "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "D:\\Overtime\\LearnAdvance\\aspnetcore-microservice\\src\\Services\\Hangfire.API\\obj\\",
+        "outputPath": "D:\\Overtime\\LearnAdvance\\microservice\\src\\Services\\Hangfire.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages"

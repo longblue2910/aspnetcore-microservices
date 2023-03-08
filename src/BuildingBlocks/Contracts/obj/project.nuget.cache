@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ry8crAvg5UcQpz2Wmu5KO2EHkjoPTFYvilnxntaNYkiQSNFxRtfr0FLfq+g1DirlRHr43Rdp55KdxtqMq1mxXQ==",
+  "dgSpecHash": "t8IS7EwGW9COjLY/oBxwGhndj7WugNidySpDK0cNopb7N7DSpLkdF2YihNfkryAvqHjkPhtr7ijoGb/wWJvTvw==",
   "success": true,
-  "projectFilePath": "D:\\Overtime\\LearnAdvance\\aspnetcore-microservice\\src\\BuildingBlocks\\Contracts\\Contracts.csproj",
+  "projectFilePath": "D:\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Contracts\\Contracts.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lenovo\\.nuget\\packages\\mediatr\\11.1.0\\mediatr.11.1.0.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",

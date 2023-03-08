@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dLWEX6JNMSDO3g/ruhhFbSZO2i9NEiuk2ojXPc2IWdIb7PFRJDZ3SF06G1O5s3mEsxo7d55hOzBnJ8kUkUm3+g==",
+  "dgSpecHash": "wveaiY6CHm9ukMfSBPXoqcfJLhamLay2W/uoFt7O87S4/sd485diilJyMNqDVEIKZuRxGTu9hMet9ydOczFJdg==",
   "success": true,
-  "projectFilePath": "D:\\Overtime\\LearnAdvance\\aspnetcore-microservice\\src\\Services\\Product.API\\Product.API.csproj",
+  "projectFilePath": "D:\\Overtime\\LearnAdvance\\microservice\\src\\Services\\Product.API\\Product.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lenovo\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

@@ -1976,11 +1976,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Overtime\\LearnAdvance\\aspnetcore-microservice\\src\\BuildingBlocks\\Infrastructure\\Infrastructure.csproj",
+      "projectUniqueName": "D:\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Infrastructure\\Infrastructure.csproj",
       "projectName": "Infrastructure",
-      "projectPath": "D:\\Overtime\\LearnAdvance\\aspnetcore-microservice\\src\\BuildingBlocks\\Infrastructure\\Infrastructure.csproj",
+      "projectPath": "D:\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Infrastructure\\Infrastructure.csproj",
       "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-      "outputPath": "D:\\Overtime\\LearnAdvance\\aspnetcore-microservice\\src\\BuildingBlocks\\Infrastructure\\obj\\",
+      "outputPath": "D:\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages"
@@ -2002,14 +2002,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Overtime\\LearnAdvance\\aspnetcore-microservice\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj": {
-              "projectPath": "D:\\Overtime\\LearnAdvance\\aspnetcore-microservice\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj"
+            "D:\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj": {
+              "projectPath": "D:\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj"
             },
-            "D:\\Overtime\\LearnAdvance\\aspnetcore-microservice\\src\\BuildingBlocks\\Contracts\\Contracts.csproj": {
-              "projectPath": "D:\\Overtime\\LearnAdvance\\aspnetcore-microservice\\src\\BuildingBlocks\\Contracts\\Contracts.csproj"
+            "D:\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Contracts\\Contracts.csproj": {
+              "projectPath": "D:\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Contracts\\Contracts.csproj"
             },
-            "D:\\Overtime\\LearnAdvance\\aspnetcore-microservice\\src\\BuildingBlocks\\Shared\\Shared.csproj": {
-              "projectPath": "D:\\Overtime\\LearnAdvance\\aspnetcore-microservice\\src\\BuildingBlocks\\Shared\\Shared.csproj"
+            "D:\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Shared\\Shared.csproj": {
+              "projectPath": "D:\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Shared\\Shared.csproj"
             }
           }
         }

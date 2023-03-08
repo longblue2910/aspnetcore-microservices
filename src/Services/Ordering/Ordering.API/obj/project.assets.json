@@ -5425,11 +5425,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Overtime\\LearnAdvance\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.API\\Ordering.API.csproj",
+      "projectUniqueName": "D:\\Overtime\\LearnAdvance\\microservice\\src\\Services\\Ordering\\Ordering.API\\Ordering.API.csproj",
       "projectName": "Ordering.API",
-      "projectPath": "D:\\Overtime\\LearnAdvance\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.API\\Ordering.API.csproj",
+      "projectPath": "D:\\Overtime\\LearnAdvance\\microservice\\src\\Services\\Ordering\\Ordering.API\\Ordering.API.csproj",
       "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-      "outputPath": "D:\\Overtime\\LearnAdvance\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.API\\obj\\",
+      "outputPath": "D:\\Overtime\\LearnAdvance\\microservice\\src\\Services\\Ordering\\Ordering.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages"
@@ -5451,17 +5451,17 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Overtime\\LearnAdvance\\aspnetcore-microservice\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj": {
-              "projectPath": "D:\\Overtime\\LearnAdvance\\aspnetcore-microservice\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj"
+            "D:\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj": {
+              "projectPath": "D:\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj"
             },
-            "D:\\Overtime\\LearnAdvance\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj": {
-              "projectPath": "D:\\Overtime\\LearnAdvance\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj"
+            "D:\\Overtime\\LearnAdvance\\microservice\\src\\Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj": {
+              "projectPath": "D:\\Overtime\\LearnAdvance\\microservice\\src\\Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj"
             },
-            "D:\\Overtime\\LearnAdvance\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj": {
-              "projectPath": "D:\\Overtime\\LearnAdvance\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj"
+            "D:\\Overtime\\LearnAdvance\\microservice\\src\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj": {
+              "projectPath": "D:\\Overtime\\LearnAdvance\\microservice\\src\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj"
             },
-            "D:\\Overtime\\LearnAdvance\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj": {
-              "projectPath": "D:\\Overtime\\LearnAdvance\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj"
+            "D:\\Overtime\\LearnAdvance\\microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj": {
+              "projectPath": "D:\\Overtime\\LearnAdvance\\microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj"
             }
           }
         }

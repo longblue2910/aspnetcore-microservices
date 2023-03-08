@@ -211,11 +211,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Overtime\\LearnAdvance\\aspnetcore-microservice\\src\\BuildingBlocks\\Shared\\Shared.csproj",
+      "projectUniqueName": "D:\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Shared\\Shared.csproj",
       "projectName": "Shared",
-      "projectPath": "D:\\Overtime\\LearnAdvance\\aspnetcore-microservice\\src\\BuildingBlocks\\Shared\\Shared.csproj",
+      "projectPath": "D:\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Shared\\Shared.csproj",
       "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-      "outputPath": "D:\\Overtime\\LearnAdvance\\aspnetcore-microservice\\src\\BuildingBlocks\\Shared\\obj\\",
+      "outputPath": "D:\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Shared\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages"
