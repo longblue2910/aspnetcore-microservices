@@ -24,11 +24,17 @@ namespace Contracts.Common.Interfaces
         where T : EntityBase<K>
         where TContext : DbContext
     {
-        Task<K> CreateAsync(T Entity);
+        void Create(T entity);
+        Task<K> CreateAsync(T entity);
+        IList<K>CreateList(IEnumerable<T> entities);    
         Task<IList<K>> CreateListAsync(IEnumerable<T> entities);
-        Task UpdateAsync(T Entity); 
+        void Update(T entity);
+        Task UpdateAsync(T entity);
+        void UpdateList(IEnumerable<T> entities);
         Task UpdateListAsync(IEnumerable<T> entities);
-        Task DeleteAsync(T Entity); 
+        void Delete(T entity);
+        Task DeleteAsync(T entity);
+        void DeleteList(IEnumerable<T> entities);
         Task DeleteListAsync(IEnumerable<T> entities);
         Task<int> SaveChangesAsync();
         Task<IDbContextTransaction> BeginTransactionAsync();
@@ -54,11 +60,17 @@ namespace Contracts.Common.Interfaces
     public interface IRepositoryBaseAsync<T, K> : IRepositoryQueryBase<T, K>
         where T : EntityBase<K>
     {
+        void Create(T entity);
         Task<K> CreateAsync(T Entity);
+        IList<K> CreateList(IEnumerable<T> entities);
         Task<IList<K>> CreateListAsync(IEnumerable<T> entities);
+        void Update(T entity);
         Task UpdateAsync(T Entity);
+        void UpdateList(IEnumerable<T> entities);
         Task UpdateListAsync(IEnumerable<T> entities);
         Task DeleteAsync(T Entity);
+        void Delete(T entity);
+        void DeleteList(IEnumerable<T> entities);
         Task DeleteListAsync(IEnumerable<T> entities);
         Task<int> SaveChangesAsync();
         Task<IDbContextTransaction> BeginTransactionAsync();

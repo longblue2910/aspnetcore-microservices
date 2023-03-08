@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "HQqZXhyibVRJ4Dndd5Cp1sM/lB5uwMBNrLC0kAmSgJ4Xl2v8RgA4dbhRVcMXFtU3e/nMm52tpPOZGqh8bNwbZA==",
+  "dgSpecHash": "UbKOhh1owKFzTdQaVAkiHFkuf4chAyPYIOeEwKA/OPlNCrgsrx89V/QeMSufY30qv9xA+OEZAnHmWF3aLV66sA==",
   "success": true,
   "projectFilePath": "D:\\Overtime\\LearnAdvance\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.API\\Ordering.API.csproj",
   "expectedPackageFiles": [
@@ -15,7 +15,7 @@
     "C:\\Users\\Lenovo\\.nuget\\packages\\masstransit\\8.0.13\\masstransit.8.0.13.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\masstransit.abstractions\\8.0.13\\masstransit.abstractions.8.0.13.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\masstransit.rabbitmq\\8.0.13\\masstransit.rabbitmq.8.0.13.nupkg.sha512",
-    "C:\\Users\\Lenovo\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\mediatr\\11.1.0\\mediatr.11.1.0.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.1.0\\mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",

@@ -3,6 +3,7 @@ D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Ordering\Ordering.
 D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Ordering\Ordering.Infrastructure\bin\Debug\net6.0\Ordering.Infrastructure.pdb
 D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Ordering\Ordering.Infrastructure\bin\Debug\net6.0\Common.Logging.dll
 D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Ordering\Ordering.Infrastructure\bin\Debug\net6.0\Contracts.dll
+D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Ordering\Ordering.Infrastructure\bin\Debug\net6.0\EventBus.Messages.dll
 D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Ordering\Ordering.Infrastructure\bin\Debug\net6.0\Infrastructure.dll
 D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Ordering\Ordering.Infrastructure\bin\Debug\net6.0\Ordering.Application.dll
 D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Ordering\Ordering.Infrastructure\bin\Debug\net6.0\Ordering.Domain.dll
@@ -11,6 +12,7 @@ D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Ordering\Ordering.
 D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Ordering\Ordering.Infrastructure\bin\Debug\net6.0\Ordering.Application.pdb
 D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Ordering\Ordering.Infrastructure\bin\Debug\net6.0\Common.Logging.pdb
 D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Ordering\Ordering.Infrastructure\bin\Debug\net6.0\Contracts.pdb
+D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Ordering\Ordering.Infrastructure\bin\Debug\net6.0\EventBus.Messages.pdb
 D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Ordering\Ordering.Infrastructure\bin\Debug\net6.0\Ordering.Domain.pdb
 D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Ordering\Ordering.Infrastructure\bin\Debug\net6.0\Shared.pdb
 D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Ordering\Ordering.Infrastructure\obj\Debug\net6.0\Ordering.Infrastructure.csproj.AssemblyReference.cache
@@ -23,5 +25,5 @@ D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Ordering\Ordering.
 D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Ordering\Ordering.Infrastructure\obj\Debug\net6.0\refint\Ordering.Infrastructure.dll
 D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Ordering\Ordering.Infrastructure\obj\Debug\net6.0\Ordering.Infrastructure.pdb
 D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Ordering\Ordering.Infrastructure\obj\Debug\net6.0\ref\Ordering.Infrastructure.dll
-D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Ordering\Ordering.Infrastructure\bin\Debug\net6.0\EventBus.Messages.dll
-D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Ordering\Ordering.Infrastructure\bin\Debug\net6.0\EventBus.Messages.pdb
+D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Ordering\Ordering.Infrastructure\bin\Debug\net6.0\Ordering.Infrastructure.runtimeconfig.json
+D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Ordering\Ordering.Infrastructure\obj\Debug\net6.0\Ordering.Infrastructure.genruntimeconfig.cache

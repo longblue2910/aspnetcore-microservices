@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "2ptHXk0+H27I+lV3+rSUxn2HEZuasyAJhkrYI/RtOqpnVwWMU8KCa6Nu4eITHQksRrIvcSYynOeJ15c6mAO1pg==",
+  "dgSpecHash": "wTSiuMuQDdsZEqLdGsS3WDh/dAfpI3d2ItxoBUoT/sD4bK8h9RfFaAfm2PCF/cF/t/LQP+da45e2BN9Aj+Onpw==",
   "success": true,
   "projectFilePath": "D:\\Overtime\\LearnAdvance\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj",
   "expectedPackageFiles": [
@@ -9,7 +9,7 @@
     "C:\\Users\\Lenovo\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\mailkit\\3.5.0\\mailkit.3.5.0.nupkg.sha512",
-    "C:\\Users\\Lenovo\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\mediatr\\11.1.0\\mediatr.11.1.0.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.1.0\\mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",

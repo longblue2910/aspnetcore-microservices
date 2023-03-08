@@ -30,15 +30,18 @@ namespace Ordering.Application.Features.V1.Orders
         {
             _logger.Information($"BEGIN: {MethodName} - Username: {request.Username}");
             var orderEntity = _mapper.Map<Order>(request);
-            var addOrder = await _orderRepository.CreateOrderAsync(orderEntity);
+            orderEntity.DocumentNo = Guid.NewGuid().ToString();
+            _orderRepository.Create(orderEntity);
+            orderEntity.AddedOrder();
             await _orderRepository.SaveChangesAsync();
-            _logger.Information($"Order {addOrder.Id} is successfully created.");
 
-            await SendEmailAsync(addOrder, cancellationToken);
+            _logger.Information($"Order {orderEntity.DocumentNo} is successfully created.");
+
+            await SendEmailAsync(orderEntity, cancellationToken);
 
             _logger.Information($"END: {MethodName} - Username: {request.Username}");
 
-            return new ApiSuccessResult<long>(addOrder.Id);
+            return new ApiSuccessResult<long>(orderEntity.Id);
         }
 
         private async Task SendEmailAsync(Order order, CancellationToken cancellationToken)
@@ -57,7 +60,7 @@ namespace Ordering.Application.Features.V1.Orders
             }
             catch (Exception ex)
             {
-                _logger.Error($"Order {order.Id} failed due to an error with the email service: {ex.Message}");
+                _logger.Error($"Order {order.DocumentNo} failed due to an error with the email service: {ex.Message}");
             }
         }
     }

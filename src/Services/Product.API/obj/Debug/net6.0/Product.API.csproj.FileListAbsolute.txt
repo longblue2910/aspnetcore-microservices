@@ -10,6 +10,8 @@ D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Product.API\bin\De
 D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Product.API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Product.API\bin\Debug\net6.0\Humanizer.dll
 D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Product.API\bin\Debug\net6.0\MailKit.dll
+D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Product.API\bin\Debug\net6.0\MediatR.dll
+D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Product.API\bin\Debug\net6.0\MediatR.Contracts.dll
 D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Product.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
 D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Product.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Product.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll

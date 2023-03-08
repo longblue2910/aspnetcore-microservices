@@ -1,10 +1,3 @@
-D:\Overtime\LearnAdvance\aspnetcore-microservice\src\ApiGateways\OcelotApiGw\obj\Debug\net6.0\OcelotApiGw.csproj.AssemblyReference.cache
-D:\Overtime\LearnAdvance\aspnetcore-microservice\src\ApiGateways\OcelotApiGw\obj\Debug\net6.0\OcelotApiGw.GeneratedMSBuildEditorConfig.editorconfig
-D:\Overtime\LearnAdvance\aspnetcore-microservice\src\ApiGateways\OcelotApiGw\obj\Debug\net6.0\OcelotApiGw.AssemblyInfoInputs.cache
-D:\Overtime\LearnAdvance\aspnetcore-microservice\src\ApiGateways\OcelotApiGw\obj\Debug\net6.0\OcelotApiGw.AssemblyInfo.cs
-D:\Overtime\LearnAdvance\aspnetcore-microservice\src\ApiGateways\OcelotApiGw\obj\Debug\net6.0\OcelotApiGw.csproj.CoreCompileInputs.cache
-D:\Overtime\LearnAdvance\aspnetcore-microservice\src\ApiGateways\OcelotApiGw\obj\Debug\net6.0\OcelotApiGw.MvcApplicationPartsAssemblyInfo.cs
-D:\Overtime\LearnAdvance\aspnetcore-microservice\src\ApiGateways\OcelotApiGw\obj\Debug\net6.0\OcelotApiGw.MvcApplicationPartsAssemblyInfo.cache
 D:\Overtime\LearnAdvance\aspnetcore-microservice\src\ApiGateways\OcelotApiGw\bin\Debug\net6.0\appsettings.Development.json
 D:\Overtime\LearnAdvance\aspnetcore-microservice\src\ApiGateways\OcelotApiGw\bin\Debug\net6.0\appsettings.json
 D:\Overtime\LearnAdvance\aspnetcore-microservice\src\ApiGateways\OcelotApiGw\bin\Debug\net6.0\OcelotApiGw.exe
@@ -16,6 +9,13 @@ D:\Overtime\LearnAdvance\aspnetcore-microservice\src\ApiGateways\OcelotApiGw\bin
 D:\Overtime\LearnAdvance\aspnetcore-microservice\src\ApiGateways\OcelotApiGw\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 D:\Overtime\LearnAdvance\aspnetcore-microservice\src\ApiGateways\OcelotApiGw\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\Overtime\LearnAdvance\aspnetcore-microservice\src\ApiGateways\OcelotApiGw\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Overtime\LearnAdvance\aspnetcore-microservice\src\ApiGateways\OcelotApiGw\obj\Debug\net6.0\OcelotApiGw.csproj.AssemblyReference.cache
+D:\Overtime\LearnAdvance\aspnetcore-microservice\src\ApiGateways\OcelotApiGw\obj\Debug\net6.0\OcelotApiGw.GeneratedMSBuildEditorConfig.editorconfig
+D:\Overtime\LearnAdvance\aspnetcore-microservice\src\ApiGateways\OcelotApiGw\obj\Debug\net6.0\OcelotApiGw.AssemblyInfoInputs.cache
+D:\Overtime\LearnAdvance\aspnetcore-microservice\src\ApiGateways\OcelotApiGw\obj\Debug\net6.0\OcelotApiGw.AssemblyInfo.cs
+D:\Overtime\LearnAdvance\aspnetcore-microservice\src\ApiGateways\OcelotApiGw\obj\Debug\net6.0\OcelotApiGw.csproj.CoreCompileInputs.cache
+D:\Overtime\LearnAdvance\aspnetcore-microservice\src\ApiGateways\OcelotApiGw\obj\Debug\net6.0\OcelotApiGw.MvcApplicationPartsAssemblyInfo.cs
+D:\Overtime\LearnAdvance\aspnetcore-microservice\src\ApiGateways\OcelotApiGw\obj\Debug\net6.0\OcelotApiGw.MvcApplicationPartsAssemblyInfo.cache
 D:\Overtime\LearnAdvance\aspnetcore-microservice\src\ApiGateways\OcelotApiGw\obj\Debug\net6.0\staticwebassets.build.json
 D:\Overtime\LearnAdvance\aspnetcore-microservice\src\ApiGateways\OcelotApiGw\obj\Debug\net6.0\staticwebassets.development.json
 D:\Overtime\LearnAdvance\aspnetcore-microservice\src\ApiGateways\OcelotApiGw\obj\Debug\net6.0\scopedcss\bundle\OcelotApiGw.styles.css

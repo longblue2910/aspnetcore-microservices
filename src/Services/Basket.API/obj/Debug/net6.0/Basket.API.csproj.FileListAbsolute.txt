@@ -11,6 +11,8 @@ D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Basket.API\bin\Deb
 D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Basket.API\bin\Debug\net6.0\MassTransit.dll
 D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Basket.API\bin\Debug\net6.0\MassTransit.Abstractions.dll
 D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Basket.API\bin\Debug\net6.0\MassTransit.RabbitMqTransport.dll
+D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Basket.API\bin\Debug\net6.0\MediatR.dll
+D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Basket.API\bin\Debug\net6.0\MediatR.Contracts.dll
 D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Basket.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
 D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Basket.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 D:\Overtime\LearnAdvance\aspnetcore-microservice\src\Services\Basket.API\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll

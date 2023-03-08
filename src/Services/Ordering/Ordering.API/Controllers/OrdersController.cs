@@ -3,6 +3,7 @@ using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Ordering.Application.Common.Models;
 using Ordering.Application.Features.V1.Orders;
+using Ordering.Application.Features.V1.Orders.Commands.DeleteOrder;
 using System.ComponentModel.DataAnnotations;
 
 namespace Ordering.API.Controllers
@@ -41,6 +42,20 @@ namespace Ordering.API.Controllers
 
         [HttpPost]
         public async Task<IActionResult> CreateOrder(CreateOrderCommand command)
+        {
+            var result = await _mediator.Send(command);
+            return Ok(result);
+        }
+
+        [HttpPut]
+        public async Task<IActionResult> UpdateOrder(UpdateOrderCommand command)
+        {
+            var result = await _mediator.Send(command);
+            return Ok(result);
+        }
+
+        [HttpDelete]
+        public async Task<IActionResult> DeleteOrder([FromQuery] DeleteOrderCommand command)
         {
             var result = await _mediator.Send(command);
             return Ok(result);
