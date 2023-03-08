@@ -7,7 +7,7 @@ namespace Contracts.Common.Interfaces
 {
 
     #region TContext
-    public interface IRepositoryQueryBase<T, K, TContext> where T : EntityBase<K>
+    public interface IRepositoryQueryBase<T, K, TContext> where T : EntityBase<K>   
         where TContext : DbContext
     {
         IQueryable<T> FindAll(bool trackChanges = false);
