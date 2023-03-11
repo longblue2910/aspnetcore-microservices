@@ -1,31 +1,65 @@
-﻿using Ordering.Domain.Entities;
+﻿using Microsoft.EntityFrameworkCore;
+using Ordering.Domain.Entities;
 using Serilog;
 
 namespace Ordering.Infrastructure.Persistence
 {
-    public static class OrderContextSeed
+    public class OrderContextSeed
     {
-        public static async Task SeedOrderAsync(OrderContext orderContext, ILogger logger)
+        private readonly ILogger _logger;
+        private readonly OrderContext _context;
+
+        public OrderContextSeed(ILogger logger, OrderContext orderContext)
         {
-            if (!orderContext.Orders.Any())
+            _logger = logger;
+            _context = orderContext;
+        }
+
+        public async Task InitialiseAsync()
+        {
+            try
             {
-                orderContext.AddRange(getOrders());
-                await orderContext.SaveChangesAsync();
-                logger.Information("Seeded data for Order DB associated with context {DbContextName}", nameof(orderContext));
+                if (_context.Database.IsSqlServer())
+                {
+                    await _context.Database.MigrateAsync();
+                }
+            }
+            catch (Exception ex)
+            {
+                _logger.Error("An error occurred while initialising the database.", ex.Message);
+                throw;
             }
         }
 
-        private static IEnumerable<Order> getOrders()
+        public async Task SeedAsync()
         {
-            return new List<Order>
+            try
             {
-                new Order
-                        {
-                            UserName = "customer1", FirstName = "customer1", LastName = "customer",
-                            EmailAddress = "customer1@gmail.com",
-                            ShippingAddress = "HCM city", InvoiceAddress = "Viet Nam", TotalPrice = 500000
-                        }
-            };
+                await TrySeedAsync();
+                await _context.SaveChangesAsync();
+            }
+            catch (Exception ex)
+            {
+                _logger.Error("An error occurred while initialising the database.", ex.Message);
+                throw;
+            }
+        }
+
+        public async Task TrySeedAsync()
+        {
+            if (!_context.Orders.Any())
+            {
+                await _context.Orders.AddRangeAsync(
+                    new Order
+                    {
+                        UserName = "customer1",
+                        FirstName = "Tran Thi",
+                        LastName = "Thuy Trang",
+                        EmailAddress = "trangtran29101705@gmail.com",
+                        ShippingAddress = "Hue City",
+                        InvoiceAddress = "Viet Nam"   
+                    });
+            }
         }
     }
 }

@@ -10,3 +10,15 @@ D:\Overtime\LearnAdvance\aspnetcore-microservice\src\BuildingBlocks\Common.Loggi
 D:\Overtime\LearnAdvance\aspnetcore-microservice\src\BuildingBlocks\Common.Logging\obj\Debug\net6.0\refint\Common.Logging.dll
 D:\Overtime\LearnAdvance\aspnetcore-microservice\src\BuildingBlocks\Common.Logging\obj\Debug\net6.0\Common.Logging.pdb
 D:\Overtime\LearnAdvance\aspnetcore-microservice\src\BuildingBlocks\Common.Logging\obj\Debug\net6.0\ref\Common.Logging.dll
+D:\Overtime\LearnAdvance\microservice\src\BuildingBlocks\Common.Logging\bin\Debug\net6.0\Common.Logging.deps.json
+D:\Overtime\LearnAdvance\microservice\src\BuildingBlocks\Common.Logging\bin\Debug\net6.0\Common.Logging.dll
+D:\Overtime\LearnAdvance\microservice\src\BuildingBlocks\Common.Logging\bin\Debug\net6.0\Common.Logging.pdb
+D:\Overtime\LearnAdvance\microservice\src\BuildingBlocks\Common.Logging\obj\Debug\net6.0\Common.Logging.csproj.AssemblyReference.cache
+D:\Overtime\LearnAdvance\microservice\src\BuildingBlocks\Common.Logging\obj\Debug\net6.0\Common.Logging.GeneratedMSBuildEditorConfig.editorconfig
+D:\Overtime\LearnAdvance\microservice\src\BuildingBlocks\Common.Logging\obj\Debug\net6.0\Common.Logging.AssemblyInfoInputs.cache
+D:\Overtime\LearnAdvance\microservice\src\BuildingBlocks\Common.Logging\obj\Debug\net6.0\Common.Logging.AssemblyInfo.cs
+D:\Overtime\LearnAdvance\microservice\src\BuildingBlocks\Common.Logging\obj\Debug\net6.0\Common.Logging.csproj.CoreCompileInputs.cache
+D:\Overtime\LearnAdvance\microservice\src\BuildingBlocks\Common.Logging\obj\Debug\net6.0\Common.Logging.dll
+D:\Overtime\LearnAdvance\microservice\src\BuildingBlocks\Common.Logging\obj\Debug\net6.0\refint\Common.Logging.dll
+D:\Overtime\LearnAdvance\microservice\src\BuildingBlocks\Common.Logging\obj\Debug\net6.0\Common.Logging.pdb
+D:\Overtime\LearnAdvance\microservice\src\BuildingBlocks\Common.Logging\obj\Debug\net6.0\ref\Common.Logging.dll

@@ -1,4 +1,6 @@
-﻿using Contracts.Services;
+﻿using AutoMapper;
+using Contracts.Services;
+using Infrastructure.Services;
 using MediatR;
 using Ordering.Domain.OrderAggregate.Events;
 using Serilog;
@@ -12,11 +14,13 @@ namespace Ordering.Application.Features.V1.Orders
     {
         private readonly ILogger _logger;
         private readonly ISmtpEmailService _emailService;
+        private readonly ITemplateEmailService _templateService;
 
-        public OrdersDomainHandler(ILogger logger, ISmtpEmailService emailService)
+        public OrdersDomainHandler(ILogger logger, ISmtpEmailService emailService, ITemplateEmailService templateService)
         {
             _logger = logger;
             _emailService = emailService;
+            _templateService = templateService;
         }
 
         public Task Handle(OrderDeletedEvent notification, CancellationToken cancellationToken)
@@ -28,12 +32,25 @@ namespace Ordering.Application.Features.V1.Orders
         public async Task Handle(OrderCreatedEvent notification, CancellationToken cancellationToken)
         {
             _logger.Information("Ordering Domain Event: {DomainEvent}", notification.GetType().Name);
+
+            var mailModel = new MailModel
+            {
+                DocumentNo = notification.DocumentNo,
+                FirstName = notification.FirstName,
+                ShippingAddress = notification.ShippingAddress,
+                EmailAddress = notification.EmailAddress,
+                InvoiceAddress = notification.InvoiceAddress,
+                Url = notification.Url,
+                LastName = notification.LastName,
+                TotalPrice = notification.TotalPrice,
+                UserName = notification.UserName,
+            };
+            var emailBody = await _templateService.GetTemplateHtmlAsStringAsync("EmailTemplate", mailModel);
+
             var emailRequest = new MailRequest
             {
                 ToAddress = notification.EmailAddress,
-                Body = $"Your order detail." +
-                       $"<p> Order Id: {notification.DocumentNo}</p>" +
-                       $"<p> Total: {notification.TotalPrice}$</p>",
+                Body = emailBody,
                 Subject = $"Hello {notification.LastName}, your order was created."
             };
 

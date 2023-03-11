@@ -18,6 +18,8 @@ try
     builder.Services.AddSwaggerGen();
     builder.Services.Configure<RouteOptions>(options => options.LowercaseUrls = true);
     builder.Services.AddInfastructure();
+    builder.Services.ConfigureMongDbClient();
+
     var app = builder.Build();
 
     // Configure the HTTP request pipeline.
@@ -33,7 +35,8 @@ try
 
     app.MapDefaultControllerRoute();
 
-    app.Run();
+    app.MigrateDatabase()
+       .Run();
 }
 catch (Exception ex)
 {

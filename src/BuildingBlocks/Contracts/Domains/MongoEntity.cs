@@ -1,8 +1,7 @@
-﻿using Contracts.Domains.Interfaces;
-using MongoDB.Bson;
+﻿using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
 
-namespace Inventory.Product.API.Entities.Abstraction
+namespace Contracts.Domains
 {
     public abstract class MongoEntity
     {

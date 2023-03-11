@@ -13,6 +13,7 @@ namespace Ordering.Domain.OrderAggregate.Events
         public string EmailAddress { get; private set; }
         public string ShippingAddress { get; private set; }
         public string InvoiceAddress { get; private set; }
+        public string Url { get; set; }
 
         public OrderCreatedEvent(long id, string documentNo, string userName, decimal totalPrice, string firstName, string lastName, string emailAddress, string shippingAddress, string invoiceAddress)
         {

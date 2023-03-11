@@ -1,9 +1,12 @@
 using Common.Logging;
 using Contracts.Common.Interfaces;
+using Contracts.Services;
 using Infrastructure.Common;
+using Infrastructure.Services;
 using Ordering.API.Extensions;
 using Ordering.Application;
 using Ordering.Infrastructure;
+using Ordering.Infrastructure.Persistence;
 using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -14,6 +17,7 @@ Log.Information("Start Ordering API up.");
 try
 {
 
+    builder.Services.AddRazorPages();
     // Add services to the container.
     builder.Host.AddAppConfigurations();
     builder.Services.AddConfigurationSettings(builder.Configuration);
@@ -23,7 +27,7 @@ try
     builder.Services.ConfigureMasstransit();
 
     builder.Services.AddControllers();
-    // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+
     builder.Services.AddEndpointsApiExplorer();
     builder.Services.AddSwaggerGen();
     builder.Services.AddScoped<ISerializeService, SerializeService>();
@@ -38,10 +42,12 @@ try
     }
 
     //Auto migration
-    //app.MigrateDatabase<OrderContext>((context, _) =>
-    //{
-    //    OrderContextSeed.SeedOrderAsync(context, Log.Logger).Wait();
-    //}).Run();
+    using (var scope = app.Services.CreateScope())
+    {
+        var orderContextSeed = scope.ServiceProvider.GetRequiredService<OrderContextSeed>();
+        await orderContextSeed.InitialiseAsync();
+        await orderContextSeed.SeedAsync();
+    }
 
     app.UseHttpsRedirection();
 

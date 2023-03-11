@@ -14,3 +14,7 @@ build_property.SupportLocalizedComponentNames =
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = D:\Overtime\LearnAdvance\microservice\src\Services\Ordering\Ordering.API
 build_property._RazorSourceGeneratorDebug = 
+
+[D:/Overtime/LearnAdvance/microservice/src/Services/Ordering/Ordering.API/Views/EmailTemplate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1haWxUZW1wbGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
