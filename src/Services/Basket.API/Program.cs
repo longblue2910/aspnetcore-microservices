@@ -23,6 +23,7 @@ try
 
     builder.Services.ConfigureServices();
     builder.Services.ConfigureRedis();
+    builder.Services.ConfigureGrpcServices();
     builder.Services.Configure<RouteOptions>(options
         => options.LowercaseQueryStrings = true);
 

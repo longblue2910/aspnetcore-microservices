@@ -1,4 +1,5 @@
-﻿using MongoDB.Driver;
+﻿using Microsoft.EntityFrameworkCore;
+using MongoDB.Driver;
 
 namespace Shared.SeedWork
 {
@@ -31,6 +32,18 @@ namespace Shared.SeedWork
             var items = await source.Find(filter)
                 .Skip((pageIndex -1) * pageSize)
                 .Limit(pageSize)
+                .ToListAsync();
+
+            return new PagedList<T>(items, count, pageSize, pageIndex);
+        }
+
+        public static async Task<PagedList<T>> ToPagedList(IQueryable<T> source,
+            FilterDefinition<T> filter, int pageIndex, int pageSize)
+        {
+            var count = await source.CountAsync();
+            var items = await source
+                .Skip((pageIndex - 1) * pageSize)
+                .Take(pageSize)
                 .ToListAsync();
 
             return new PagedList<T>(items, count, pageSize, pageIndex);

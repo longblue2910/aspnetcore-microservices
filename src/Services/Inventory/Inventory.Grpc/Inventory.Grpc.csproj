@@ -1,0 +1,62 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Grpc.AspNetCore" Version="2.40.0" />
+    <PackageReference Include="MongoDB.Driver" Version="2.19.0" />
+	  <PackageReference Include="Serilog.AspNetCore" Version="5.0.0" />
+	  <PackageReference Include="Serilog.Enrichers.Environment" Version="2.2.0" />
+	  <PackageReference Include="Serilog.Formatting.Compact" Version="1.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+  	<None Remove="Protos\stock.proto" />
+  	<Compile Include="obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" />
+  	<Compile Include="obj\Debug\net6.0\Inventory.Grpc.AssemblyInfo.cs" />
+  	<Compile Include="obj\Debug\net6.0\Inventory.Grpc.GlobalUsings.g.cs" />
+  	<Compile Include="obj\Debug\net6.0\Protos\Greet.cs" />
+  	<Compile Include="obj\Debug\net6.0\Protos\GreetGrpc.cs" />
+  	<Compile Include="obj\Debug\net6.0\Protos\Stock.cs" />
+  	<Compile Include="obj\Debug\net6.0\Protos\StockGrpc.cs" />
+  	<Content Include="obj\Debug\net6.0\Inventory.Grpc.csproj.FileListAbsolute.txt" />
+  	<Content Include="obj\Inventory.Grpc.csproj.nuget.dgspec.json" />
+  	<Content Include="obj\project.assets.json" />
+  	<None Include="obj\Debug\net6.0\12fbc7ffe642ca7e_stock.protodep" />
+  	<None Include="obj\Debug\net6.0\apphost.exe" />
+  	<None Include="obj\Debug\net6.0\Inventory.Grpc.AssemblyInfoInputs.cache" />
+  	<None Include="obj\Debug\net6.0\Inventory.Grpc.assets.cache" />
+  	<None Include="obj\Debug\net6.0\Inventory.Grpc.csproj.AssemblyReference.cache" />
+  	<None Include="obj\Debug\net6.0\Inventory.Grpc.csproj.BuildWithSkipAnalyzers" />
+  	<None Include="obj\Debug\net6.0\Inventory.Grpc.GeneratedMSBuildEditorConfig.editorconfig" />
+  	<None Include="obj\Inventory.Grpc.csproj.nuget.g.props" />
+  	<None Include="obj\Inventory.Grpc.csproj.nuget.g.targets" />
+  	<None Include="obj\staticwebassets.pack.sentinel" />
+  	<Protobuf Include="Protos\stock.proto">
+  		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+  		<GrpcServices>Server</GrpcServices>
+  		<Access>Public</Access>
+  		<ProtoCompile>True</ProtoCompile>
+  		<ProtoRoot></ProtoRoot>
+  		<CompileOutputs>True</CompileOutputs>
+  		<OutputDir>obj\Debug/net6.0</OutputDir>
+  		<Generator>MSBuild:Compile</Generator>
+  	</Protobuf>	
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="obj\Debug\net6.0\refint\" />
+    <Folder Include="obj\Debug\net6.0\ref\" />
+    <Folder Include="obj\Debug\net6.0\staticwebassets\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\BuildingBlocks\Common.Logging\Common.Logging.csproj" />
+    <ProjectReference Include="..\..\..\BuildingBlocks\Contracts\Contracts.csproj" />
+    <ProjectReference Include="..\..\..\BuildingBlocks\Infrastructure\Infrastructure.csproj" />
+    <ProjectReference Include="..\..\..\BuildingBlocks\Shared\Shared.csproj" />
+  </ItemGroup>
+</Project>

@@ -2164,6 +2164,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
+          "Microsoft.EntityFrameworkCore": "7.0.2",
           "MongoDB.Driver": "2.19.0"
         },
         "compile": {

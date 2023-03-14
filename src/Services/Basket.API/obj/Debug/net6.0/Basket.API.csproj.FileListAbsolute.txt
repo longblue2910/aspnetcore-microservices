@@ -99,6 +99,13 @@ D:\Overtime\LearnAdvance\microservice\src\Services\Basket.API\bin\Debug\net6.0\A
 D:\Overtime\LearnAdvance\microservice\src\Services\Basket.API\bin\Debug\net6.0\AWSSDK.Core.dll
 D:\Overtime\LearnAdvance\microservice\src\Services\Basket.API\bin\Debug\net6.0\AWSSDK.SecurityToken.dll
 D:\Overtime\LearnAdvance\microservice\src\Services\Basket.API\bin\Debug\net6.0\DnsClient.dll
+D:\Overtime\LearnAdvance\microservice\src\Services\Basket.API\bin\Debug\net6.0\Google.Protobuf.dll
+D:\Overtime\LearnAdvance\microservice\src\Services\Basket.API\bin\Debug\net6.0\Grpc.AspNetCore.Server.dll
+D:\Overtime\LearnAdvance\microservice\src\Services\Basket.API\bin\Debug\net6.0\Grpc.AspNetCore.Server.ClientFactory.dll
+D:\Overtime\LearnAdvance\microservice\src\Services\Basket.API\bin\Debug\net6.0\Grpc.Core.Api.dll
+D:\Overtime\LearnAdvance\microservice\src\Services\Basket.API\bin\Debug\net6.0\Grpc.Net.Client.dll
+D:\Overtime\LearnAdvance\microservice\src\Services\Basket.API\bin\Debug\net6.0\Grpc.Net.ClientFactory.dll
+D:\Overtime\LearnAdvance\microservice\src\Services\Basket.API\bin\Debug\net6.0\Grpc.Net.Common.dll
 D:\Overtime\LearnAdvance\microservice\src\Services\Basket.API\bin\Debug\net6.0\MailKit.dll
 D:\Overtime\LearnAdvance\microservice\src\Services\Basket.API\bin\Debug\net6.0\MassTransit.dll
 D:\Overtime\LearnAdvance\microservice\src\Services\Basket.API\bin\Debug\net6.0\MassTransit.Abstractions.dll
