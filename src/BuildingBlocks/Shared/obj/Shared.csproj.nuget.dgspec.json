@@ -1,24 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Shared\\Shared.csproj": {}
+    "C:\\Data\\lONG\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Shared\\Shared.csproj": {}
   },
   "projects": {
-    "D:\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Shared\\Shared.csproj": {
+    "C:\\Data\\lONG\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Shared\\Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Shared\\Shared.csproj",
+        "projectUniqueName": "C:\\Data\\lONG\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Shared\\Shared.csproj",
         "projectName": "Shared",
-        "projectPath": "D:\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Shared\\Shared.csproj",
-        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "D:\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Shared\\obj\\",
+        "projectPath": "C:\\Data\\lONG\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Shared\\Shared.csproj",
+        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
+        "outputPath": "C:\\Data\\lONG\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages"
+          "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages",
+          "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -27,6 +29,7 @@
         "sources": {
           "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -74,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

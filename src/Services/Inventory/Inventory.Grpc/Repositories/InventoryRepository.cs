@@ -4,8 +4,6 @@ using Inventory.Grpc.Repositories.Interfaces;
 using MongoDB.Driver;
 using MongoDB.Driver.Linq;
 using Shared.Configurations;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace Inventory.Grpc.Repositories
 {

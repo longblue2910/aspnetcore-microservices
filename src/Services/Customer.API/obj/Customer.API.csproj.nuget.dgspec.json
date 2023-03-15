@@ -1,24 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Overtime\\LearnAdvance\\microservice\\src\\Services\\Customer.API\\Customer.API.csproj": {}
+    "C:\\Data\\lONG\\Overtime\\LearnAdvance\\microservice\\src\\Services\\Customer.API\\Customer.API.csproj": {}
   },
   "projects": {
-    "D:\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj": {
+    "C:\\Data\\lONG\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj",
+        "projectUniqueName": "C:\\Data\\lONG\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj",
         "projectName": "Common.Logging",
-        "projectPath": "D:\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj",
-        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "D:\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Common.Logging\\obj\\",
+        "projectPath": "C:\\Data\\lONG\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj",
+        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
+        "outputPath": "C:\\Data\\lONG\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Common.Logging\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages"
+          "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages",
+          "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -27,6 +29,7 @@
         "sources": {
           "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -74,25 +77,27 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Contracts\\Contracts.csproj": {
+    "C:\\Data\\lONG\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Contracts\\Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Contracts\\Contracts.csproj",
+        "projectUniqueName": "C:\\Data\\lONG\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Contracts\\Contracts.csproj",
         "projectName": "Contracts",
-        "projectPath": "D:\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Contracts\\Contracts.csproj",
-        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "D:\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Contracts\\obj\\",
+        "projectPath": "C:\\Data\\lONG\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Contracts\\Contracts.csproj",
+        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
+        "outputPath": "C:\\Data\\lONG\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages"
+          "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages",
+          "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -101,14 +106,15 @@
         "sources": {
           "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Shared\\Shared.csproj": {
-                "projectPath": "D:\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Shared\\Shared.csproj"
+              "C:\\Data\\lONG\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Shared\\Shared.csproj": {
+                "projectPath": "C:\\Data\\lONG\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Shared\\Shared.csproj"
               }
             }
           }
@@ -148,25 +154,27 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Data\\lONG\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Data\\lONG\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "D:\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "D:\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Infrastructure\\obj\\",
+        "projectPath": "C:\\Data\\lONG\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
+        "outputPath": "C:\\Data\\lONG\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages"
+          "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages",
+          "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -175,20 +183,21 @@
         "sources": {
           "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj": {
-                "projectPath": "D:\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj"
+              "C:\\Data\\lONG\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj": {
+                "projectPath": "C:\\Data\\lONG\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj"
               },
-              "D:\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Contracts\\Contracts.csproj": {
-                "projectPath": "D:\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Contracts\\Contracts.csproj"
+              "C:\\Data\\lONG\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Contracts\\Contracts.csproj": {
+                "projectPath": "C:\\Data\\lONG\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Contracts\\Contracts.csproj"
               },
-              "D:\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Shared\\Shared.csproj": {
-                "projectPath": "D:\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Shared\\Shared.csproj"
+              "C:\\Data\\lONG\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Shared\\Shared.csproj": {
+                "projectPath": "C:\\Data\\lONG\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Shared\\Shared.csproj"
               }
             }
           }
@@ -244,25 +253,27 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Shared\\Shared.csproj": {
+    "C:\\Data\\lONG\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Shared\\Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Shared\\Shared.csproj",
+        "projectUniqueName": "C:\\Data\\lONG\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Shared\\Shared.csproj",
         "projectName": "Shared",
-        "projectPath": "D:\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Shared\\Shared.csproj",
-        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "D:\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Shared\\obj\\",
+        "projectPath": "C:\\Data\\lONG\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Shared\\Shared.csproj",
+        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
+        "outputPath": "C:\\Data\\lONG\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages"
+          "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages",
+          "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -271,6 +282,7 @@
         "sources": {
           "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -318,25 +330,27 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Overtime\\LearnAdvance\\microservice\\src\\Services\\Customer.API\\Customer.API.csproj": {
+    "C:\\Data\\lONG\\Overtime\\LearnAdvance\\microservice\\src\\Services\\Customer.API\\Customer.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Overtime\\LearnAdvance\\microservice\\src\\Services\\Customer.API\\Customer.API.csproj",
+        "projectUniqueName": "C:\\Data\\lONG\\Overtime\\LearnAdvance\\microservice\\src\\Services\\Customer.API\\Customer.API.csproj",
         "projectName": "Customer.API",
-        "projectPath": "D:\\Overtime\\LearnAdvance\\microservice\\src\\Services\\Customer.API\\Customer.API.csproj",
-        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "D:\\Overtime\\LearnAdvance\\microservice\\src\\Services\\Customer.API\\obj\\",
+        "projectPath": "C:\\Data\\lONG\\Overtime\\LearnAdvance\\microservice\\src\\Services\\Customer.API\\Customer.API.csproj",
+        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
+        "outputPath": "C:\\Data\\lONG\\Overtime\\LearnAdvance\\microservice\\src\\Services\\Customer.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages"
+          "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages",
+          "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -345,23 +359,24 @@
         "sources": {
           "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj": {
-                "projectPath": "D:\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj"
+              "C:\\Data\\lONG\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj": {
+                "projectPath": "C:\\Data\\lONG\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj"
               },
-              "D:\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Contracts\\Contracts.csproj": {
-                "projectPath": "D:\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Contracts\\Contracts.csproj"
+              "C:\\Data\\lONG\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Contracts\\Contracts.csproj": {
+                "projectPath": "C:\\Data\\lONG\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Contracts\\Contracts.csproj"
               },
-              "D:\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "D:\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Infrastructure\\Infrastructure.csproj"
+              "C:\\Data\\lONG\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Data\\lONG\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Infrastructure\\Infrastructure.csproj"
               },
-              "D:\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Shared\\Shared.csproj": {
-                "projectPath": "D:\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Shared\\Shared.csproj"
+              "C:\\Data\\lONG\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Shared\\Shared.csproj": {
+                "projectPath": "C:\\Data\\lONG\\Overtime\\LearnAdvance\\microservice\\src\\BuildingBlocks\\Shared\\Shared.csproj"
               }
             }
           }
@@ -434,7 +449,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
