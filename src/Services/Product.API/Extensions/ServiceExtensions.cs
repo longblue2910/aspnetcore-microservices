@@ -1,8 +1,6 @@
 ﻿using Contracts.Common.Interfaces;
-using Contracts.Identity;
 using Infrastructure.Common;
 using Infrastructure.Extensions;
-using Infrastructure.Identity;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;

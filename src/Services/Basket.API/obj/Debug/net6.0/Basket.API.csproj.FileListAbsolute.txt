@@ -424,3 +424,8 @@ C:\Data\lONG\Overtime\microservice\src\Services\Basket.API\obj\Debug\net6.0\refi
 C:\Data\lONG\Overtime\microservice\src\Services\Basket.API\obj\Debug\net6.0\Basket.API.pdb
 C:\Data\lONG\Overtime\microservice\src\Services\Basket.API\obj\Debug\net6.0\Basket.API.genruntimeconfig.cache
 C:\Data\lONG\Overtime\microservice\src\Services\Basket.API\obj\Debug\net6.0\ref\Basket.API.dll
+C:\Data\lONG\Overtime\microservice\src\Services\Basket.API\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Data\lONG\Overtime\microservice\src\Services\Basket.API\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Data\lONG\Overtime\microservice\src\Services\Basket.API\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Data\lONG\Overtime\microservice\src\Services\Basket.API\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Data\lONG\Overtime\microservice\src\Services\Basket.API\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll

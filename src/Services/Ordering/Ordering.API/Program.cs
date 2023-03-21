@@ -1,8 +1,6 @@
 using Common.Logging;
 using Contracts.Common.Interfaces;
-using Contracts.Services;
 using Infrastructure.Common;
-using Infrastructure.Services;
 using Ordering.API.Extensions;
 using Ordering.Application;
 using Ordering.Infrastructure;

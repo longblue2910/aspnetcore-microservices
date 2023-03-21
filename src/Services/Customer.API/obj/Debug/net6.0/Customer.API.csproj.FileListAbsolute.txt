@@ -355,3 +355,8 @@ C:\Data\lONG\Overtime\microservice\src\Services\Customer.API\obj\Debug\net6.0\re
 C:\Data\lONG\Overtime\microservice\src\Services\Customer.API\obj\Debug\net6.0\Customer.API.pdb
 C:\Data\lONG\Overtime\microservice\src\Services\Customer.API\obj\Debug\net6.0\Customer.API.genruntimeconfig.cache
 C:\Data\lONG\Overtime\microservice\src\Services\Customer.API\obj\Debug\net6.0\ref\Customer.API.dll
+C:\Data\lONG\Overtime\microservice\src\Services\Customer.API\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Data\lONG\Overtime\microservice\src\Services\Customer.API\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Data\lONG\Overtime\microservice\src\Services\Customer.API\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Data\lONG\Overtime\microservice\src\Services\Customer.API\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Data\lONG\Overtime\microservice\src\Services\Customer.API\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
