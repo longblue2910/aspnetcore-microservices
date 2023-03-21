@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Common.Logging
-build_property.ProjectDir = C:\Data\lONG\Overtime\LearnAdvance\microservice\src\BuildingBlocks\Common.Logging\
+build_property.ProjectDir = C:\Data\lONG\Overtime\microservice\src\BuildingBlocks\Common.Logging\

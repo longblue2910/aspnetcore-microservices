@@ -17,7 +17,6 @@
   </ItemGroup>
 
   <ItemGroup>
-  	<None Remove="Protos\stock.proto" />
   	<Content Include="obj\Debug\net6.0\Inventory.Grpc.csproj.FileListAbsolute.txt" />
   	<Content Include="obj\Inventory.Grpc.csproj.nuget.dgspec.json" />
   	<Content Include="obj\project.assets.json" />
