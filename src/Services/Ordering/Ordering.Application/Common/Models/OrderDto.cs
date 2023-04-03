@@ -14,8 +14,9 @@ namespace Ordering.Application.Common.Models
         public string LastName { get; set; }
         public string EmailAddress { get; set; }
         public string ShippingAddress { get; set; }
+        public OrderStatus Status { get; set; }        
         public string InvoiceAddress { get; set; }
-        public OrderStatus Status { get; set; }
+
         public void Mapping(Profile profile)
         {
             profile.CreateMap<Order, OrderDto>().ReverseMap();

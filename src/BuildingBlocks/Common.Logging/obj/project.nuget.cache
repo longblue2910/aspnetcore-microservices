@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "36PKJ8eoI7USYrWov8uEIgJCVwC+8FKL8rp2vie38bGqqN3n12t/bXAEawgVwHsZIYin57yiH5admOv7Zwwj9g==",
+  "dgSpecHash": "xOjJE6yiUGv1uQmqMkyUazzrbHaGcuUrxfLSQRM0UnxvyaPeOZWQ4RP/0Pp73mNG2GkR1ngZ/jkkVVCKuqZtkA==",
   "success": true,
   "projectFilePath": "C:\\Data\\lONG\\Overtime\\microservice\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj",
   "expectedPackageFiles": [

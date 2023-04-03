@@ -2,6 +2,7 @@
 using Basket.API.Entities;
 using Basket.API.GrpcService;
 using Basket.API.Repositories.Interfaces;
+using Basket.API.Service.Interfaces;
 using EventBus.Messages.IntegrationEvents.Events;
 using MassTransit;
 using Microsoft.AspNetCore.Mvc;
@@ -85,9 +86,9 @@ namespace Basket.API.Controllers
 
             //Remove the basket
             await _repository.DeleteBasketFromUserName(basketCheckout.UserName);
-
             return Accepted();
-
         }
+
+        
     }
 }

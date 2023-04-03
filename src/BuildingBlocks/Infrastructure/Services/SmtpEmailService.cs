@@ -22,6 +22,52 @@ namespace Infrastructure.Services
 
         public async Task SendEmailAsync(MailRequest request, CancellationToken cancellationToken = default)
         {
+            var emailMessage = GetMimeMessage(request);
+
+            try
+            {
+                await _smtpClient.ConnectAsync(_setting.SMTPServer, _setting.Port, _setting.UseSsl, cancellationToken);
+                await _smtpClient.AuthenticateAsync(_setting.UserName, _setting.Password, cancellationToken);
+                await _smtpClient.SendAsync(emailMessage, cancellationToken);
+                await _smtpClient.DisconnectAsync(true, cancellationToken);
+
+            }
+            catch (Exception ex)
+            {
+                _logger.Error(ex.Message, ex);
+            }
+            finally
+            {
+                await _smtpClient.DisconnectAsync(true, cancellationToken);
+                _smtpClient.Dispose();
+            }
+        }
+
+        public void SendMail(MailRequest request)
+        {
+            var emailMessage = GetMimeMessage(request);
+
+            try
+            {
+                _smtpClient.Connect(_setting.SMTPServer, _setting.Port, _setting.UseSsl);
+                _smtpClient.Authenticate(_setting.UserName, _setting.Password);
+                _smtpClient.Send(emailMessage);
+                _smtpClient.Disconnect(true);
+
+            }
+            catch (Exception ex)
+            {
+                _logger.Error(ex.Message, ex);
+            }
+            finally
+            {
+                _smtpClient.Disconnect(true);
+                _smtpClient.Dispose();
+            }
+        }
+
+        private MimeMessage GetMimeMessage(MailRequest request)
+        {
             var emailMessage = new MimeMessage
             {
                 Sender = new MailboxAddress(_setting.DisplayName, request.From ?? _setting.From),
@@ -44,24 +90,8 @@ namespace Infrastructure.Services
                 var toAddress = request.ToAddress;
                 emailMessage.To.Add(MailboxAddress.Parse(toAddress));
             }
-
-            try
-            {
-                await _smtpClient.ConnectAsync(_setting.SMTPServer, _setting.Port, _setting.UseSsl, cancellationToken);
-                await _smtpClient.AuthenticateAsync(_setting.UserName, _setting.Password, cancellationToken);
-                await _smtpClient.SendAsync(emailMessage, cancellationToken);
-                await _smtpClient.DisconnectAsync(true, cancellationToken);
-
-            }
-            catch (Exception ex)
-            {
-                _logger.Error(ex.Message, ex);
-            }
-            finally
-            {
-                await _smtpClient.DisconnectAsync(true, cancellationToken);
-                _smtpClient.Dispose();
-            }
+            return emailMessage;
+            
         }
     }
 }

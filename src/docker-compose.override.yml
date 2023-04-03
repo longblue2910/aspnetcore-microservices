@@ -61,6 +61,21 @@ services:
         - mongo_data:/data/db
 
 
+  #hangfiredb: hangfiredb
+  hangfiredb:
+    container_name: hangfiredb
+    ports:
+        - "27108:27107"
+    volumes:
+        - hangfire_mongo_data:/data/db
+    restart: always
+    environment:
+        MONGO_INITDB_ROOT_USERNAME: 'admin'
+        MONGO_INITDB_ROOT_PASSWORD: 'admin'
+
+
+
+
    #infrastructure section
 
 
