@@ -7,6 +7,7 @@ using EventBus.Messages.IntegrationEvents.Events;
 using MassTransit;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Caching.Distributed;
+using Shared.DTOs.Baskets;
 using System;
 using System.ComponentModel.DataAnnotations;
 using System.Net;
@@ -33,20 +34,21 @@ namespace Basket.API.Controllers
         }
 
         [HttpGet("{username}", Name = "GetBassket")]
-        [ProducesResponseType(typeof(Cart), (int)HttpStatusCode.OK)]
-        public async Task<ActionResult<Cart>> GetBasketByUserName([Required] string username)
+        [ProducesResponseType(typeof(CartDto), (int)HttpStatusCode.OK)]
+        public async Task<ActionResult<CartDto>> GetBasketByUserName([Required] string username)
         {
-            var result = await _repository.GetBasketByUserName(username);
+            var cart = await _repository.GetBasketByUserName(username);
+            var result = _mapper.Map<CartDto>(cart) ?? new CartDto(username);    
 
-            return Ok(result ?? new Entities.Cart());
+            return Ok(result);
         }
 
         [HttpPost(Name = "UpdateBasket")]
-        [ProducesResponseType(typeof(Cart), (int)HttpStatusCode.OK)]
-        public async Task<ActionResult<Cart>> UpdateBasket([Required] Cart cart)
+        [ProducesResponseType(typeof(CartDto), (int)HttpStatusCode.OK)]
+        public async Task<ActionResult<CartDto>> UpdateBasket([Required] CartDto model)
         {
             //Comunicate with Inventory .Grpc and check quantity available of products
-            foreach (var item in cart.Items)
+            foreach (var item in model.Items)
             {
                 var stock = await _stockItemGrpcService.GetStock(item.ItemNo);
                 item.AvailableQuantity = stock.Quantity;
@@ -56,7 +58,12 @@ namespace Basket.API.Controllers
                 .SetAbsoluteExpiration(DateTime.UtcNow.AddHours(10))
                 /*.SetSlidingExpiration(TimeSpan.FromMinutes(5))*/;
 
-            var result = await _repository.UpdateBasket(cart, options);
+            var cart = _mapper.Map<Cart>(model);
+
+            var updateCard = await _repository.UpdateBasket(cart, options);
+
+            var result = _mapper.Map<CartDto>(updateCard);
+
 
             return Ok(result);
         }

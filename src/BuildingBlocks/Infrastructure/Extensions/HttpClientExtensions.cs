@@ -1,4 +1,5 @@
 ﻿using System.Net.Http.Headers;
+using System.Net.Http.Json;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 
@@ -29,7 +30,7 @@ namespace Infrastructure.Extensions
 
             content.Headers.ContentType = new MediaTypeHeaderValue("application/json");
 
-            return client.PostAsJson(url, content);
+            return client.PostAsJsonAsync(url, content);
         }
     }
 }

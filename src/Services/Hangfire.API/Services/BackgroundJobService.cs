@@ -18,6 +18,9 @@ namespace Hangfire.API.Services
             _emailService = emailService;
             _logger = logger;
         }
+
+        public IScheduledJobService ScheduledJob => _jobService;
+
         public string SendMailContent(string email, string subject, string emailContent, DateTimeOffset enqueueAt)
         {
             var emailRequest = new MailRequest

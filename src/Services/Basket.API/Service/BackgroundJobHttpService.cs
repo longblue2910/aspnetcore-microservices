@@ -5,6 +5,9 @@ namespace Basket.API.Service
     public class BackgroundJobHttpService
     {
         public HttpClient Client { get; }
+
+        public string ScheduledJobUrl { get; }
+
         public BackgroundJobHttpService(HttpClient client, BackgroundJobSettings settings)
         {
             client.BaseAddress = new Uri(settings.HangfireUrl);
@@ -12,6 +15,8 @@ namespace Basket.API.Service
             client.DefaultRequestHeaders.Add("Accept", "application/json");
 
             Client = client;
+
+            ScheduledJobUrl = settings.ScheduledJobUrl;
         }
     }
 }

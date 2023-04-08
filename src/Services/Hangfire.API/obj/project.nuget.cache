@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "pwRov+O2HWOewL+oxUAMPXJfhjFZt5pzQbqt78artI7YA4POtb0fJHpBI/KpoGRcV5vUJX+K4NIo30KwVRM2HA==",
+  "dgSpecHash": "EOHXV61RTJvPU+tCki43ySx6NjgXZyzNPR95VPhLRpBeW+LOKUImuJzUjwXwYyDUvYeCw9O3WobS8pBsDNHySg==",
   "success": true,
   "projectFilePath": "C:\\Data\\lONG\\Overtime\\microservice\\src\\Services\\Hangfire.API\\Hangfire.API.csproj",
   "expectedPackageFiles": [
@@ -47,6 +47,7 @@
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.2\\microsoft.visualstudio.azure.containers.tools.targets.1.17.2.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\mimekit\\3.5.0\\mimekit.3.5.0.nupkg.sha512",

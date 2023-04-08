@@ -231,3 +231,16 @@ services:
     ports:
         - "6001:80" 
     restart: always
+
+  hangfire.api:
+    container_name: hangfire.api
+    environment: 
+        - ASPNETCORE_ENVIRONMENT=Development
+        - ASPNETCORE_URLS=http://+80
+        - HangfireSettings:Storage:ConnectionString=mongodb://localhost:27017/hangfire-webapi
+    depends_on:
+        - hangfiredb
+    ports:
+        - "6008:80" 
+    restart: always
+

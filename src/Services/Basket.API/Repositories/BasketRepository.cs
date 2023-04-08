@@ -30,8 +30,10 @@ namespace Basket.API.Repositories
 
         public async Task<bool> DeleteBasketFromUserName(string username)
         {
-            _logger.Information($"BEGIN: DeleteBasketFromUserName {username}");
 
+            await DeleteReminderCheckoutOrder(username);
+
+            _logger.Information($"BEGIN: DeleteBasketFromUserName {username}");
 
             try
             {
@@ -61,7 +63,9 @@ namespace Basket.API.Repositories
         }
 
         public async Task<Cart> UpdateBasket(Cart cart, DistributedCacheEntryOptions options = null)
-        {
+        {   
+            await DeleteReminderCheckoutOrder(cart.Username);
+
             _logger.Information($"BEGIN: UpdateBasket {cart.Username}");
 
             if (options != null)
@@ -85,6 +89,17 @@ namespace Basket.API.Repositories
             return await GetBasketByUserName(cart.Username);
         }
 
+        private async Task DeleteReminderCheckoutOrder(string username)
+        {
+            var cart = await GetBasketByUserName(username);
+            if (cart == null || string.IsNullOrEmpty(cart.JobId)) return;
+
+            var jobId = cart.JobId;
+            var uri = $"{_backgroundJobHttpService.ScheduledJobUrl}/delete/jobId/{jobId}";
+            await _backgroundJobHttpService.Client.DeleteAsync(uri);
+            _logger.Information($"DeleteReminderCheckoutOrder: Deleted Job Id: {jobId}");
+        }
+
         public async Task<bool> TriggerSendEmailReminderCheckoutOrder(Cart cart)
         {
             var emailTemplate = _emailTemplateService.GenerateReminderCheckoutOrderEmail(cart.Username);
@@ -92,7 +107,7 @@ namespace Basket.API.Repositories
             var model = new ReminderCheckoutOrderDto(cart.EmailAddress, "Reminder checkout", emailTemplate,
                 DateTimeOffset.UtcNow./*AddDays(1).AddHours(8).*/AddMinutes(3));
 
-            const string uri = "/api/scheduled-jobs/send-mail-reminder-checkout-order";
+            var uri = $"{_backgroundJobHttpService.ScheduledJobUrl}/send-mail-reminder-checkout-order";
             var response = await _backgroundJobHttpService.Client.PostAsJson(uri, model);
 
             if (response.EnsureSuccessStatusCode().IsSuccessStatusCode)

@@ -54,6 +54,7 @@ namespace Infrastructure.ScheduledJobs
                         Prefix = "ScheduledQueue",
                         CheckQueuedJobsStrategy = CheckQueuedJobsStrategy.TailNotificationsCollection
                     };
+
                     services.AddHangfire((provider, config) =>
                     {
                         config.UseSimpleAssemblyNameTypeSerializer()
