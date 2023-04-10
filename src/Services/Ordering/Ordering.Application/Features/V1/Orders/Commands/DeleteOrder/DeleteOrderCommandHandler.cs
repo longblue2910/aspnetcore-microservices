@@ -4,7 +4,7 @@ using Ordering.Application.Common.Interfaces;
 using Ordering.Domain.Entities;
 using Serilog;
 
-namespace Ordering.Application.Features.V1.Orders.Commands.DeleteOrder
+namespace Ordering.Application.Features.V1.Orders
 {
     public class DeleteOrderCommandHandler : IRequestHandler<DeleteOrderCommand>
     {

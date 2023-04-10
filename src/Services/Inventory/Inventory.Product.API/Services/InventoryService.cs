@@ -68,6 +68,28 @@ namespace Inventory.Product.API.Services
             await CreateAsync(entity);
             var result = _mapper.Map<InventoryEntryDto>(entity);
             return result;
-        }   
+        }
+
+        public async Task<InventoryEntryDto> SalesItemAsync(string itemNo, SalesProductDto model)
+        {
+            var itemToAdd = new InventoryEntry(ObjectId.GenerateNewId().ToString())
+            {
+                ItemNo = itemNo,
+                ExternalDocumentNo = model.ExternalDocumentNo,
+                Quantity = model.Quantity * -1,
+                DocumentType = model.EDocumentType
+            };
+
+            await CreateAsync(itemToAdd);
+
+            var result = _mapper.Map<InventoryEntryDto>(itemToAdd);
+
+            return result;
+        }
+
+        public Task DeleteByDocumentNoAsync(string documentNo)
+        {
+            return;
+        }
     }
 }

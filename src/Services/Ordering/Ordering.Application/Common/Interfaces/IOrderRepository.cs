@@ -8,5 +8,6 @@ namespace Ordering.Application.Common.Interfaces
         Task<IEnumerable<Order>> GetOrdersByUsername(string username);
         Task<Order> CreateOrderAsync(Order orderDto);
         Task<Order> UpdateOrderAsync(Order orderDto);
+        Task<Order> GetOrderByDocumentNo(string documentNo);
     }
 }

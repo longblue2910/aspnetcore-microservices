@@ -538,7 +538,6 @@ C:\Data\lONG\Overtime\microservice\src\Services\Ordering\Ordering.API\obj\Debug\
 C:\Data\lONG\Overtime\microservice\src\Services\Ordering\Ordering.API\obj\Debug\net6.0\Ordering.API.AssemblyInfoInputs.cache
 C:\Data\lONG\Overtime\microservice\src\Services\Ordering\Ordering.API\obj\Debug\net6.0\Ordering.API.AssemblyInfo.cs
 C:\Data\lONG\Overtime\microservice\src\Services\Ordering\Ordering.API\obj\Debug\net6.0\Ordering.API.csproj.CoreCompileInputs.cache
-C:\Data\lONG\Overtime\microservice\src\Services\Ordering\Ordering.API\obj\Debug\net6.0\Ordering.API.MvcApplicationPartsAssemblyInfo.cs
 C:\Data\lONG\Overtime\microservice\src\Services\Ordering\Ordering.API\obj\Debug\net6.0\Ordering.API.MvcApplicationPartsAssemblyInfo.cache
 C:\Data\lONG\Overtime\microservice\src\Services\Ordering\Ordering.API\obj\Debug\net6.0\Ordering.API.RazorAssemblyInfo.cache
 C:\Data\lONG\Overtime\microservice\src\Services\Ordering\Ordering.API\obj\Debug\net6.0\Ordering.API.RazorAssemblyInfo.cs

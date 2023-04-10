@@ -1,10 +1,10 @@
 ﻿using AutoMapper;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using Ordering.Application.Common.Models;
 using Ordering.Application.Features.V1.Orders;
-using Ordering.Application.Features.V1.Orders.Commands.DeleteOrder;
+using Shared.DTOs.Order;
 using System.ComponentModel.DataAnnotations;
+using OrderDto = Ordering.Application.Common.Models.OrderDto;
 
 namespace Ordering.API.Controllers
 {
@@ -25,9 +25,11 @@ namespace Ordering.API.Controllers
         private static class RouteNames
         {
             public const string GetOrders = nameof(GetOrders);
+            public const string GetOrder = nameof(GetOrder);
             public const string CreateOrder = nameof(CreateOrder);
             public const string UpdateOrder = nameof(UpdateOrder);
             public const string DeleteOrder = nameof(DeleteOrder);
+            public const string DeleteOrderByDocumentNo = nameof(DeleteOrderByDocumentNo);
 
         }
 
@@ -40,9 +42,20 @@ namespace Ordering.API.Controllers
             return Ok(result);
         }
 
-        [HttpPost]
-        public async Task<IActionResult> CreateOrder(CreateOrderCommand command)
+        [HttpGet("{id:long}", Name = RouteNames.GetOrder)]
+        public async Task<ActionResult<OrderDto>> GetOrder([Required] long id)
         {
+            var query = new GetOrderByIdQuery(id);
+            var result = await _mediator.Send(query);
+
+            return Ok(result);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> CreateOrder(CreateOrderDto dto)
+        {
+            var command = _mapper.Map<CreateOrderCommand>(dto);
+
             var result = await _mediator.Send(command);
             return Ok(result);
         }
@@ -57,6 +70,14 @@ namespace Ordering.API.Controllers
         [HttpDelete]
         public async Task<IActionResult> DeleteOrder([FromQuery] DeleteOrderCommand command)
         {
+            var result = await _mediator.Send(command);
+            return Ok(result);
+        }
+
+        [HttpDelete("document-no/{documentNo}")]
+        public async Task<IActionResult> DeleteOrderByDocumentNo([Required] string documentNo)
+        {
+            var command = new DeleteOrderByDocumentNoCommand(documentNo);
             var result = await _mediator.Send(command);
             return Ok(result);
         }
