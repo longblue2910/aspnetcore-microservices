@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qbxq8fPvg4GHto3D2+v0kiLzP05JliUHQav7nPfOS8vk3Uu4Q3gYSLaY1B4EGHNcUWqaoU+/6EE02q4TpvfdMA==",
+  "dgSpecHash": "cXWbR4kONcjLv9Um7hlNEFB4HBoOpNiC642xHiK+3DZoXsBUx5lBbA8oz/BCXjeu+6IVnOULYJ5mxTyVgaBjbw==",
   "success": true,
-  "projectFilePath": "C:\\Data\\lONG\\Overtime\\microservice\\src\\BuildingBlocks\\Contracts\\Contracts.csproj",
+  "projectFilePath": "C:\\Data\\LONG\\Overtime\\microservice\\src\\BuildingBlocks\\Contracts\\Contracts.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",

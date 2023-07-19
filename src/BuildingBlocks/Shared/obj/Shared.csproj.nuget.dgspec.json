@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Data\\lONG\\Overtime\\microservice\\src\\BuildingBlocks\\Shared\\Shared.csproj": {}
+    "C:\\Data\\LONG\\Overtime\\microservice\\src\\BuildingBlocks\\Shared\\Shared.csproj": {}
   },
   "projects": {
-    "C:\\Data\\lONG\\Overtime\\microservice\\src\\BuildingBlocks\\Shared\\Shared.csproj": {
+    "C:\\Data\\LONG\\Overtime\\microservice\\src\\BuildingBlocks\\Shared\\Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Data\\lONG\\Overtime\\microservice\\src\\BuildingBlocks\\Shared\\Shared.csproj",
+        "projectUniqueName": "C:\\Data\\LONG\\Overtime\\microservice\\src\\BuildingBlocks\\Shared\\Shared.csproj",
         "projectName": "Shared",
-        "projectPath": "C:\\Data\\lONG\\Overtime\\microservice\\src\\BuildingBlocks\\Shared\\Shared.csproj",
+        "projectPath": "C:\\Data\\LONG\\Overtime\\microservice\\src\\BuildingBlocks\\Shared\\Shared.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
         "outputPath": "C:\\Data\\lONG\\Overtime\\microservice\\src\\BuildingBlocks\\Shared\\obj\\",
         "projectStyle": "PackageReference",
@@ -76,7 +76,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

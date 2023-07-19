@@ -116,8 +116,11 @@ services:
     environment:
         - xpack.monitoring.enabled=true
         - xpack.watcher.enabled=false
+        - xpack.security.enabled=true
         - "EA_JAVA_OPTS=-Xms512m -Xmx512m"
         - discovery.type=single-node
+        #- ELASTIC_USERNAME=elastic
+        - ELASTIC_PASSWORD=admin
     ports:
         - "9200:9200"
     volumes:
@@ -128,6 +131,8 @@ services:
     container_name: kibana
     environment:
         - ELASTICSEARCH_URL=http://elasticsearch:9200
+        - ELASTICSEARCH_USERNAME=elastic
+        - ELASTICSEARCH_PASSWORD=admin
     depends_on:
         - elasticsearch
     ports:
@@ -244,4 +249,13 @@ services:
     ports:
         - "6008:80" 
     restart: always
+
+  webstatus:
+    container_name: webstatus
+    environment:
+        - ASPNETCORE_ENVIRONMENT=Development
+        - HealthChecksUI__HealthChecks__0__Name=Product Health Check
+        - HealthChecksUI__HealthChecks__0__Uri=http://product.api/hc
+    ports:
+    - "6010:80" 
 

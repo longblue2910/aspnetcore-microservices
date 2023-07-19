@@ -77,5 +77,20 @@ namespace Inventory.Product.API.Controllers
             await _service.DeleteAsync(id);
             return NoContent();
         }
+
+        /// <summary>
+        /// SalesOrder
+        /// </summary>
+        /// <param name="itemNo"></param>
+        /// <returns></returns>
+        [HttpPost("sale/{itemNo}", Name = "SalesOrder")]
+        [ProducesResponseType(typeof(InventoryEntryDto), (int)HttpStatusCode.OK)]
+        public async Task<ActionResult<InventoryEntryDto>> SalesOrder(
+            [Required] string itemNo,
+            [FromBody] SalesProductDto model)
+        {
+            var result = await _service.SalesItemAsync(itemNo, model);
+            return Ok(result);
+        }
     }
 }

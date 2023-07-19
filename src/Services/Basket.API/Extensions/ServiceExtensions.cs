@@ -3,12 +3,15 @@ using Basket.API.Repositories;
 using Basket.API.Repositories.Interfaces;
 using Basket.API.Service;
 using Basket.API.Service.Interfaces;
+using Common.Logging;
 using Contracts.Common.Interfaces;
 using EventBus.Messages.IntegrationEvents.Interfaces;
 using Infrastructure.Common;
 using Infrastructure.Extensions;
+using Infrastructure.Policies;
 using Inventory.Grpc.Protos;
 using MassTransit;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection.Extensions;
 using Shared.Configurations;
 
@@ -42,11 +45,14 @@ namespace Basket.API.Extensions
         public static IServiceCollection ConfigureServices(this IServiceCollection services) =>
             services.AddScoped<IBasketRepository, BasketRepository>()
                     .AddTransient<ISerializeService, SerializeService>()
-                    .AddTransient<IEmailTemplateService, BasketEmailTemplateService>();
+                    .AddTransient<IEmailTemplateService, BasketEmailTemplateService>()
+                    .AddTransient<LoggingDelegatingHandler>();
 
         public static void ConfigureHttpClinetService(this IServiceCollection services)
         {
-            services.AddHttpClient<BackgroundJobHttpService>();
+            services.AddHttpClient<BackgroundJobHttpService>()
+                //.AddHttpMessageHandler<LoggingDelegatingHandler>()
+                .UseImmediateHttpRetryPolicy();
         }
 
         public static void ConfigureRedis(this IServiceCollection services)

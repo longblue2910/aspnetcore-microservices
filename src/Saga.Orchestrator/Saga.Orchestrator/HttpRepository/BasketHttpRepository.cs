@@ -11,15 +11,19 @@ namespace Saga.Orchestrator.HttpRepository
         {
             _client = client;
         }
-        public Task<bool> DeleteBasket(string username)
+        public async Task<bool> DeleteBasket(string username)
         {
-            throw new NotImplementedException();
+            var response = await _client.DeleteAsync($"baskets/{username}");
+            if (!response.EnsureSuccessStatusCode().IsSuccessStatusCode) 
+                throw new Exception($"Delete basket for Username: {username} not success");
 
+            var result = response.IsSuccessStatusCode;
+            return result;
         }
 
         public async Task<CartDto> GetBasket(string username)
         {
-            var cart = await _client.GetFromJsonAsync<CartDto>($"baskets/{username}");
+            var cart = await _client.GetFromJsonAsync<CartDto>($"basket/{username}");
             if (cart == null || !cart.Items.Any()) 
                 return new CartDto();
 

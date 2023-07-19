@@ -9,13 +9,13 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Ordering.API
 build_property.RootNamespace = Ordering.API
-build_property.ProjectDir = C:\Data\lONG\Overtime\microservice\src\Services\Ordering\Ordering.API\
+build_property.ProjectDir = C:\Data\LONG\Overtime\microservice\src\Services\Ordering\Ordering.API\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Data\lONG\Overtime\microservice\src\Services\Ordering\Ordering.API
+build_property.MSBuildProjectDirectory = C:\Data\LONG\Overtime\microservice\src\Services\Ordering\Ordering.API
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Data/lONG/Overtime/microservice/src/Services/Ordering/Ordering.API/Views/EmailTemplate.cshtml]
+[C:/Data/LONG/Overtime/microservice/src/Services/Ordering/Ordering.API/Views/EmailTemplate.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1haWxUZW1wbGF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

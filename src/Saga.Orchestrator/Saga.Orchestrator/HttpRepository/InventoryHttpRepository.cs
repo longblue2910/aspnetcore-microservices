@@ -12,6 +12,18 @@ namespace Saga.Orchestrator.HttpRepository
         {
             _client = client;
         }
+
+        public async Task<string> CreateOrderSale(string orderNo, SalesOrderDto model)
+        {
+            var response = await _client.PostAsJsonAsync($"inventory/sales/order-no/{orderNo}", model);
+            if (!response.EnsureSuccessStatusCode().IsSuccessStatusCode)
+                throw new Exception($"Create sale order for Order no: {orderNo} not success");
+
+            var result = await response.ReadContentAs<CreatedSalesOrderSuccessDto>();
+            return result.DocumentNo;
+
+        }
+
         public async Task<string> CreateSalesOrder(SalesProductDto model)
         {
             var response = await _client.PostAsJsonAsync($"inventory/sales/{model.ItemNo}", model);

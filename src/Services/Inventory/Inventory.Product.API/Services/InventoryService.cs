@@ -87,9 +87,10 @@ namespace Inventory.Product.API.Services
             return result;
         }
 
-        public Task DeleteByDocumentNoAsync(string documentNo)
+        public async Task DeleteByDocumentNoAsync(string documentNo)
         {
-            return;
+            FilterDefinition<InventoryEntry> filter = Builders<InventoryEntry>.Filter.Eq(s => s.DocumentNo, documentNo);
+            await Collection.DeleteOneAsync(filter);
         }
     }
 }
