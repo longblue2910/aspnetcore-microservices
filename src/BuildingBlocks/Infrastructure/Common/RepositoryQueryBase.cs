@@ -38,9 +38,9 @@ namespace Infrastructure.Common
             return items;
         }
 
-        public async Task<T?> GetByIdAsync(K id) => await FindByCondition(x => x.Id.Equals(id)).FirstOrDefaultAsync();
+        public async Task<T> GetByIdAsync(K id) => await FindByCondition(x => x.Id.Equals(id)).FirstOrDefaultAsync();
 
-        public async Task<T?> GetByIdAsync(K id, params Expression<Func<T, object>>[] includeProperties) =>
+        public async Task<T> GetByIdAsync(K id, params Expression<Func<T, object>>[] includeProperties) =>
                 await FindByCondition(x => x.Id.Equals(id), trackChanges: false, includeProperties)
                 .FirstOrDefaultAsync();
     }
@@ -78,9 +78,9 @@ namespace Infrastructure.Common
             return items;
         }
 
-        public async Task<T?> GetByIdAsync(K id) => await FindByCondition(x => x.Id.Equals(id)).FirstOrDefaultAsync();
+        public async Task<T> GetByIdAsync(K id) => await FindByCondition(x => x.Id.Equals(id)).FirstOrDefaultAsync();
 
-        public async Task<T?> GetByIdAsync(K id, params Expression<Func<T, object>>[] includeProperties) =>
+        public async Task<T> GetByIdAsync(K id, params Expression<Func<T, object>>[] includeProperties) =>
                 await FindByCondition(x => x.Id.Equals(id), trackChanges: false, includeProperties)
                 .FirstOrDefaultAsync();
     }

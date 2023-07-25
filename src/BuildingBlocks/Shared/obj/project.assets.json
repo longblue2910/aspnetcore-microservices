@@ -1330,11 +1330,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Data\\lONG\\Overtime\\microservice\\src\\BuildingBlocks\\Shared\\Shared.csproj",
+      "projectUniqueName": "C:\\Data\\LONG\\Overtime\\microservice\\src\\BuildingBlocks\\Shared\\Shared.csproj",
       "projectName": "Shared",
-      "projectPath": "C:\\Data\\lONG\\Overtime\\microservice\\src\\BuildingBlocks\\Shared\\Shared.csproj",
+      "projectPath": "C:\\Data\\LONG\\Overtime\\microservice\\src\\BuildingBlocks\\Shared\\Shared.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Data\\lONG\\Overtime\\microservice\\src\\BuildingBlocks\\Shared\\obj\\",
+      "outputPath": "C:\\Data\\LONG\\Overtime\\microservice\\src\\BuildingBlocks\\Shared\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages",
@@ -1399,7 +1399,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
       }
     }
   }

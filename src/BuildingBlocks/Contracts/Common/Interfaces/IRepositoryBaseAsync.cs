@@ -14,8 +14,8 @@ namespace Contracts.Common.Interfaces
         IQueryable<T> FindAll(bool trackChanges = false, params Expression<Func<T, object>>[] includeProperties);
         IQueryable<T> FindByCondition(Expression<Func<T, bool>> expression, bool trackChanges = false);
         IQueryable<T> FindByCondition(Expression<Func<T, bool>> expression, bool trackChanges = false, params Expression<Func<T, object>>[] includeProperties);
-        Task<T?> GetByIdAsync(K id);
-        Task<T?> GetByIdAsync(K id, params Expression<Func<T, object>>[] includeProperties);
+        Task<T> GetByIdAsync(K id);
+        Task<T> GetByIdAsync(K id, params Expression<Func<T, object>>[] includeProperties);
 
 
     }
@@ -51,8 +51,8 @@ namespace Contracts.Common.Interfaces
         IQueryable<T> FindAll(bool trackChanges = false, params Expression<Func<T, object>>[] includeProperties);
         IQueryable<T> FindByCondition(Expression<Func<T, bool>> expression, bool trackChanges = false);
         IQueryable<T> FindByCondition(Expression<Func<T, bool>> expression, bool trackChanges = false, params Expression<Func<T, object>>[] includeProperties);
-        Task<T?> GetByIdAsync(K id);
-        Task<T?> GetByIdAsync(K id, params Expression<Func<T, object>>[] includeProperties);
+        Task<T> GetByIdAsync(K id);
+        Task<T> GetByIdAsync(K id, params Expression<Func<T, object>>[] includeProperties);
 
 
     }
