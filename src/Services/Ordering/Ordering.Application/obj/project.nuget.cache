@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "LbD36nSplWkT/2QAw+3j5Bgqx9zDo2MYaYBczKL+z90Pfr9gOS+Y4hfRpvhEaPgPYlQrXbSB3PBvKoTgHZ3XWQ==",
+  "dgSpecHash": "ZVbIrTO9aUPJRfqcZgB0dEz969diyDYNvzP6uGkV6XTm5WqioMfcTVsL1J34bExkTecYmWOM5VbcNnefDDtsmw==",
   "success": true,
   "projectFilePath": "C:\\Data\\LONG\\Overtime\\microservice\\src\\Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj",
   "expectedPackageFiles": [

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "zlC1Q85PCSlyqANtJRdPOFKaXYpkyszldvIKAlh9DkpIMHEPzryChwvucvJsyvDDQ8oRW24aiy/r9MaulsSIjQ==",
+  "dgSpecHash": "ctaMJeJayG2xOXquRaJ8Db3nLjcCB9GJbFXdR2e1o/P4m51K1RdGgNtS5Ywv4fFFQGXBkOA8XuU9HildPC4wTA==",
   "success": true,
   "projectFilePath": "C:\\Data\\LONG\\Overtime\\microservice\\src\\BuildingBlocks\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -158,5 +158,16 @@
     "C:\\Users\\Admin\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\zstdsharp.port\\0.6.2\\zstdsharp.port.0.6.2.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.IdentityModel.Tokens.Jwt' 6.27.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-59j7-ghrg-fj52",
+      "libraryId": "System.IdentityModel.Tokens.Jwt",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

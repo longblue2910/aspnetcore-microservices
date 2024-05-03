@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "XmjEVCHvl5v8uTyU/wqHTwlfCnI6aD0RElvXOU0gunG3ARpIO3uye16GqqhMNkwCW6mt65f8BwC2ayJtB0xBng==",
+  "dgSpecHash": "SC+/tqub2rF84tPgAg7Ss5Ds1r4q0UgbLfHtL9umk5sumqinIH0qNQp9/8+kTPGLkjWgWA1rh0YHQqV4Ex3Gqg==",
   "success": true,
   "projectFilePath": "C:\\Data\\LONG\\Overtime\\microservice\\src\\ApiGateways\\OcelotApiGw\\OcelotApiGw.csproj",
   "expectedPackageFiles": [

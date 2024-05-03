@@ -8,7 +8,7 @@ namespace Contracts.Domains
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
         [BsonElement("_id")]
-        public virtual string  Id { get; set; }
+        public virtual string Id { get; set; }
         [BsonDateTimeOptions(Kind = DateTimeKind.Utc)]
         [BsonElement("createdDate")]
         public DateTime CreatedDate { get; set; }
