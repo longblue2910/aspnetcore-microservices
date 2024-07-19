@@ -11,7 +11,7 @@ namespace Basket.API.Service
             BackgroundJobSettings = settings;
         }
         private static readonly string _baseDirectory = AppDomain.CurrentDomain.BaseDirectory;
-        private static readonly string _tmpFolder = Path.Combine(_baseDirectory, "EmailTemplates");
+        private static readonly string _tmpFolder = Path.Combine(_baseDirectory, "EmailTemplates"); 
 
         protected string ReadEmailTemplateContent(string emailTemplateName, string format = "html")
         {

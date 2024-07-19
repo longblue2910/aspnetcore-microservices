@@ -5,7 +5,6 @@ using System.Linq.Expressions;
 
 namespace Contracts.Common.Interfaces
 {
-
     #region TContext
     public interface IRepositoryQueryBase<T, K, TContext> where T : EntityBase<K>   
         where TContext : DbContext
@@ -16,8 +15,6 @@ namespace Contracts.Common.Interfaces
         IQueryable<T> FindByCondition(Expression<Func<T, bool>> expression, bool trackChanges = false, params Expression<Func<T, object>>[] includeProperties);
         Task<T> GetByIdAsync(K id);
         Task<T> GetByIdAsync(K id, params Expression<Func<T, object>>[] includeProperties);
-
-
     }
 
     public interface IRepositoryBaseAsync<T, K, TContext> : IRepositoryQueryBase<T, K, TContext>
@@ -53,8 +50,6 @@ namespace Contracts.Common.Interfaces
         IQueryable<T> FindByCondition(Expression<Func<T, bool>> expression, bool trackChanges = false, params Expression<Func<T, object>>[] includeProperties);
         Task<T> GetByIdAsync(K id);
         Task<T> GetByIdAsync(K id, params Expression<Func<T, object>>[] includeProperties);
-
-
     }
 
     public interface IRepositoryBaseAsync<T, K> : IRepositoryQueryBase<T, K>

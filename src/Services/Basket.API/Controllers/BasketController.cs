@@ -2,16 +2,13 @@
 using Basket.API.Entities;
 using Basket.API.GrpcService;
 using Basket.API.Repositories.Interfaces;
-using Basket.API.Service.Interfaces;
 using EventBus.Messages.IntegrationEvents.Events;
 using MassTransit;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Caching.Distributed;
 using Shared.DTOs.Baskets;
-using System;
 using System.ComponentModel.DataAnnotations;
 using System.Net;
-using System.Threading.Tasks;
 
 namespace Basket.API.Controllers
 {
@@ -94,8 +91,6 @@ namespace Basket.API.Controllers
             //Remove the basket
             await _repository.DeleteBasketFromUserName(basketCheckout.UserName);
             return Accepted();
-        }
-
-        
+        }       
     }
 }

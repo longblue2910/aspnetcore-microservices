@@ -53,8 +53,9 @@ C:\Data\lONG\Overtime\microservice\src\BuildingBlocks\Contracts\obj\Debug\net6.0
 C:\Data\lONG\Overtime\microservice\src\BuildingBlocks\Contracts\obj\Debug\net6.0\Contracts.AssemblyInfoInputs.cache
 C:\Data\lONG\Overtime\microservice\src\BuildingBlocks\Contracts\obj\Debug\net6.0\Contracts.AssemblyInfo.cs
 C:\Data\lONG\Overtime\microservice\src\BuildingBlocks\Contracts\obj\Debug\net6.0\Contracts.csproj.CoreCompileInputs.cache
-C:\Data\lONG\Overtime\microservice\src\BuildingBlocks\Contracts\obj\Debug\net6.0\Contracts.csproj.CopyComplete
 C:\Data\lONG\Overtime\microservice\src\BuildingBlocks\Contracts\obj\Debug\net6.0\Contracts.dll
 C:\Data\lONG\Overtime\microservice\src\BuildingBlocks\Contracts\obj\Debug\net6.0\refint\Contracts.dll
 C:\Data\lONG\Overtime\microservice\src\BuildingBlocks\Contracts\obj\Debug\net6.0\Contracts.pdb
 C:\Data\lONG\Overtime\microservice\src\BuildingBlocks\Contracts\obj\Debug\net6.0\ref\Contracts.dll
+C:\Data\LONG\Overtime\microservice\src\BuildingBlocks\Contracts\obj\Debug\net6.0\Contracts.sourcelink.json
+C:\Data\LONG\Overtime\microservice\src\BuildingBlocks\Contracts\obj\Debug\net6.0\Contracts.csproj.Up2Date

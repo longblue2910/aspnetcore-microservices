@@ -18,7 +18,7 @@ namespace Inventory.Product.API.Persistence
             }
         }
 
-        private IEnumerable<InventoryEntry> GetPreconfiguredInventoryEntries()
+        private static IEnumerable<InventoryEntry> GetPreconfiguredInventoryEntries()
         {
             return new List<InventoryEntry>()
             {

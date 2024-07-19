@@ -12,8 +12,11 @@ namespace Infrastructure.Common
             _context = context;
         }
         public Task<int> CommitAsync() => _context.SaveChangesAsync();
-        
 
-        public void Dispose() => _context.Dispose();    
+
+        public void Dispose()
+        {
+            _context.Dispose();
+        }
     }
 }

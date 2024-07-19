@@ -14,7 +14,6 @@ Log.Information($"Start {builder.Environment.ApplicationName} up");
 
 try
 {
-
     builder.Host.UseSerilog(Serilogger.Configure);
     builder.Host.AddAppConfigurations();
     builder.Services.AddConfigurationSettings(builder.Configuration);
@@ -67,4 +66,3 @@ finally
     Log.Information("Shut down Basket API Complete");
     Log.CloseAndFlush();
 }
-

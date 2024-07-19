@@ -32,14 +32,18 @@ namespace Inventory.Product.API.Services
         {
             var filterSearchTerm = Builders<InventoryEntry>.Filter.Empty;
             var filterItemNo = Builders<InventoryEntry>.Filter.Eq(x => x.ItemNo, query.ItemNo());
+
             if (!string.IsNullOrEmpty(query.SearchTerm))
                 filterSearchTerm = Builders<InventoryEntry>.Filter.Eq(x => x.DocumentNo, query.SearchTerm);
 
             var andFilter = filterItemNo & filterSearchTerm;
+
             var pageList = await Collection.PaginatedListAsync(andFilter,
                 pageIndex: query.PageIndex, pageSize: query.PageSize);
 
             var items = _mapper.Map<IEnumerable<InventoryEntryDto>>(pageList);
+
+
             var result = new PagedList<InventoryEntryDto>(items, pageList.GetMetaData().TotalItems,
                 pageIndex: query.PageIndex, pageSize: query.PageSize);
             return result;

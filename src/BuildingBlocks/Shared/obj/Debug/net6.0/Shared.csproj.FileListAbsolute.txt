@@ -46,3 +46,4 @@ C:\Data\lONG\Overtime\microservice\src\BuildingBlocks\Shared\obj\Debug\net6.0\Sh
 C:\Data\lONG\Overtime\microservice\src\BuildingBlocks\Shared\obj\Debug\net6.0\refint\Shared.dll
 C:\Data\lONG\Overtime\microservice\src\BuildingBlocks\Shared\obj\Debug\net6.0\Shared.pdb
 C:\Data\lONG\Overtime\microservice\src\BuildingBlocks\Shared\obj\Debug\net6.0\ref\Shared.dll
+C:\Data\LONG\Overtime\microservice\src\BuildingBlocks\Shared\obj\Debug\net6.0\Shared.sourcelink.json

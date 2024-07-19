@@ -1,13 +1,12 @@
-﻿namespace Saga.Orchestrator.OrderManager
+﻿namespace Saga.Orchestrator.OrderManager;
+
+public enum EOrderAction
 {
-    public enum EOrderAction
-    {
-        GetBasket,
-        CreateOrder,
-        GetOrder,
-        DeleteBasket,
-        UpdateInventory,
-        DeleteInventory,
-        DeleteOrder
-    }
+    GetBasket,
+    CreateOrder,
+    GetOrder,
+    DeleteBasket,
+    UpdateInventory,
+    DeleteInventory,
+    DeleteOrder
 }

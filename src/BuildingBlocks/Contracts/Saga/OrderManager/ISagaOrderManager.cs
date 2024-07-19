@@ -5,6 +5,5 @@
     {
         public TOutput CreateOrder(TInput input);
         public TOutput RollbackOrder(string username, string documentNo, long orderId);
-
     }
 }

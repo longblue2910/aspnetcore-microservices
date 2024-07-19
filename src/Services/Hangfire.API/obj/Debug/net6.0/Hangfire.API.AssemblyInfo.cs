@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Hangfire.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1371c541a6c9a3ff20a4fb9c966b9de1934a6cd5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f63b0d5e8a22947337a8a8effa181558d9b2b741")]
 [assembly: System.Reflection.AssemblyProductAttribute("Hangfire.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Hangfire.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

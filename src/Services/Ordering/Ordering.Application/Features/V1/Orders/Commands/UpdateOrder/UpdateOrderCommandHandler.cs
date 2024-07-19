@@ -39,7 +39,7 @@ namespace Ordering.Application.Features.V1.Orders
             orderEntity = _mapper.Map(request, orderEntity);
             var updateOrder = await _orderRepository.UpdateOrderAsync(orderEntity);
             await _orderRepository.SaveChangesAsync();
-
+             
             _logger.Information($"Order {request.Id} was successfully updated.");
             var result = _mapper.Map<OrderDto>(updateOrder);
 
